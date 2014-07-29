@@ -1,0 +1,2946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"cyan",
+				"cyan-dark"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"add",
+				"address2"
+			],
+			[
+				"shipp",
+				"shipping_address"
+			],
+			[
+				"shipping",
+				"shipping_address"
+			],
+			[
+				"perk",
+				"perk_name"
+			],
+			[
+				"total",
+				"total_diff"
+			],
+			[
+				"cuso",
+				"customer_id"
+			],
+			[
+				"orde",
+				"orders_can_be_shipped"
+			],
+			[
+				"uni",
+				"unit_price"
+			],
+			[
+				"countr",
+				"country"
+			],
+			[
+				"shi",
+				"shipping"
+			],
+			[
+				"resul",
+				"result_list"
+			],
+			[
+				"resu",
+				"result_list"
+			],
+			[
+				"update_",
+				"update_customer"
+			],
+			[
+				"get",
+				"get_order"
+			],
+			[
+				"csv",
+				"csv_row"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"find_by_",
+				"find_by_perk_name"
+			],
+			[
+				"address",
+				"address2"
+			],
+			[
+				"pled",
+				"pledge_id"
+			],
+			[
+				"ge",
+				"get_expected_costs"
+			],
+			[
+				"expecte",
+				"expected_price"
+			],
+			[
+				"per",
+				"perk_name"
+			],
+			[
+				"ship",
+				"shipping_address"
+			],
+			[
+				"custo",
+				"customer"
+			],
+			[
+				"ple",
+				"pledge_id"
+			],
+			[
+				"pledge",
+				"pledgeId"
+			],
+			[
+				"popu",
+				"populate_perk_prices"
+			],
+			[
+				"addres",
+				"address1"
+			],
+			[
+				"co",
+				"country"
+			],
+			[
+				"cre",
+				"createNewAddress"
+			],
+			[
+				"shippin",
+				"shippingAddress1"
+			],
+			[
+				"sh",
+				"shippingZip"
+			],
+			[
+				"cus",
+				"customer"
+			],
+			[
+				"create",
+				"createAddress"
+			],
+			[
+				"addr",
+				"address1"
+			],
+			[
+				"customer",
+				"customer_id"
+			],
+			[
+				"staging",
+				"staging_hash"
+			],
+			[
+				"cust",
+				"customer"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"back",
+				"backersGrouped"
+			],
+			[
+				"backer",
+				"backer_hash"
+			],
+			[
+				"ass",
+				"assert_select"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"list-st",
+				"list-style"
+			],
+			[
+				"price",
+				"price"
+			],
+			[
+				"in",
+				"invalid"
+			],
+			[
+				"iag",
+				"image_url"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"low",
+				"lowerBound"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"message",
+				"message_id"
+			],
+			[
+				"mess",
+				"message"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"com",
+				"com"
+			],
+			[
+				"central",
+				"centraleuropeanstartupawards"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"mu",
+				"multiplesOfThree "
+			],
+			[
+				"mul",
+				"multiplesOfFive "
+			],
+			[
+				"multi",
+				"multiples"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"overflo",
+				"overflow-x"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"redi",
+				"redirectTarget"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fon-",
+				"font-family"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"br",
+				"browserPrefixes"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"ren",
+				"renderOpera"
+			],
+			[
+				"element",
+				"elementCount"
+			],
+			[
+				"numb",
+				"numberOfGradients"
+			],
+			[
+				"render",
+				"renderGradients"
+			],
+			[
+				"time",
+				"timeInterval"
+			],
+			[
+				"devi",
+				"devicesPerMilli"
+			],
+			[
+				"mill",
+				"milliPerDevice"
+			],
+			[
+				"show",
+				"showLineNumbers"
+			],
+			[
+				"succu",
+				"successfully"
+			],
+			[
+				"notifi",
+				"notificationBar"
+			],
+			[
+				"is",
+				"isFunction"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"auth",
+				"authUser"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"overfl",
+				"overflow-y"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"ove",
+				"overflow-y"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"def-a",
+				"def-trans-time"
+			],
+			[
+				"coll",
+				"collaborators-emails"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"login-",
+				"login-row"
+			],
+			[
+				"ca",
+				"call"
+			],
+			[
+				"ad",
+				"adjustFooterWith"
+			],
+			[
+				"narrow",
+				"narrowFooter"
+			],
+			[
+				"narro",
+				"narrowFooter"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"nav",
+				"navy-blue"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"col-",
+				"col-md-8"
+			],
+			[
+				"tet",
+				"textarea	Tag"
+			],
+			[
+				"js",
+				"js	javascript-include"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"decim",
+				"decimal1"
+			],
+			[
+				"de",
+				"decimal1"
+			],
+			[
+				"d",
+				"day"
+			],
+			[
+				"middl",
+				"middleInitial"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1851,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 3707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/colors.scss",
+			"settings":
+			{
+				"buffer_size": 244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/utility.scss",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/shapes.scss",
+			"settings":
+			{
+				"buffer_size": 1427,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"traili",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"filed",
+				"FileDiffs: Menu"
+			],
+			[
+				"dif",
+				"FileDiffs: Menu"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"dash",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"DEBUG",
+				"Debugger: Hide debug windows"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"snippet: link",
+				"Snippet: link_to (path)"
+			],
+			[
+				"snippet",
+				"Snippet: link_to (action)"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"das",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"da",
+				"DashDoc: invoke Dash with selected word"
+			],
+			[
+				"gutter",
+				"Preferences: GutterColor Settings – Default"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"snipp",
+				"Snippet: link_to (path)"
+			],
+			[
+				"snippet li",
+				"Snippet: link_to (action)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: link_to (controller)"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"sear",
+				"File: Search Files"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"spaces",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"yam",
+				"Set Syntax: YAML"
+			],
+			[
+				"ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ali",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"too",
+				"Show TODOs: Open files only"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"git che",
+				"Git: Checkout"
+			],
+			[
+				"git chec",
+				"Git: Checkout"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"form",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"link to",
+				"Snippet: link_to (action)"
+			],
+			[
+				"link",
+				"Snippet: link_to (path)"
+			],
+			[
+				"snippet link",
+				"Snippet: link_to (action)"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"Snippet",
+				"Snippet: Function"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Checkout"
+			],
+			[
+				"git:st",
+				"Git: Status"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"pref",
+				"Autoprefix CSS"
+			],
+			[
+				"prefi",
+				"Autoprefix CSS"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"for",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"forma",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"show",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"sho",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"run",
+				"Run JavaScript in the browser"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"prefere",
+				"Preferences: Browse Packages"
+			],
+			[
+				"preferen",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 315.0,
+		"history":
+		[
+			"cd ~/sites",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
+		"/Users/zaki/Desktop/Apple Final Cut Pro v10.1.2 - [MUMBAI-TPB]/Follow Me.txt",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/README.md",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/zkwsk_logo_red.svg",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/_settings.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/canvas-todataurl-type.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/icons/style.css",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/css-objectfit.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/config.rb",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/shapes.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.gitignore",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/getusermedia.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/paper.css",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/app.css",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/app.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/icons/selection.json",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/folded-paper.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/9e98899059faa3b18005340591952390d2ea17d0/_keystrokes.scssc",
+		"/Users/zaki/Dropbox/Webconsu.lt/web late 2013/index.html",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/foundation.html",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower.json",
+		"/Users/zaki/.zprofile",
+		"/Users/zaki/.profile",
+		"/Users/zaki/.zrofile",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/routes.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Indie.sublime-project",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/initializers/mime_types.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/views/customers/index.html.erb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/customer.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/controllers/customers_controller.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/views/layouts/application.html.erb",
+		"/Users/zaki/Desktop/contributions-4.csv",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/TODOS.md",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/helpers/customers_helper.rb",
+		"/Users/zaki/Desktop/contributions_ultra_short.csv",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/staging.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/environments/development.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/views/stagings/index.html.erb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/assets/stylesheets/application.css",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/order.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/controllers/application_controller.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/test/models/customer_test.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/assets/javascripts/application.js",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/helpers/application_helper.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/boot.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140407201611_add_diff_to_order.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/.vagrant/machines/default/virtualbox/synced_folders",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/initializers/filter_parameter_logging.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/schema.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/test/fixtures/customers.yml",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/seeds.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Gemfile",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140717124926_add_total_amount_to_customers.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/perks.yml",
+		"/Users/zaki/Desktop/contributions-4-short.csv",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/pry.sublime-snippet",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140717115011_add_guessed_to_perks.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/perk.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/shipping_address.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140716112523_add_column_to_perks.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/test/fixtures/stagings.yml",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/test/models/staging_test.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/controllers/stagings_controller.rb",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/log/development.log",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/tmp/cache/assets/development/sass/dd200090ab831991cdd7efd4edc91d6f7b322a49/scaffolds.css.scssc",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/tmp/cache/assets/development/sass/dd200090ab831991cdd7efd4edc91d6f7b322a49/stagings.css.scssc",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/assets/stylesheets/customers.css.scss",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/assets/stylesheets/page.css.scss",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140407205831_add_total_diff_to_customers.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/test.sqlite3",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/.gitignore",
+		"/Users/zaki/Desktop/secret folder full of porn/contributions-4.csv",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140514133627_remove_column_unit_price_from_perk.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140514133417_add_column_to_perks.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140514134529_change_bool_to_int.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140514140014_remove_guessed_from_perk.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140514140247_add_guessed_to_perks.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140514123211_add_column_expected_price_to_orders.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140402114005_add_expected_price_to_perk.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/bin/bundle",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/README.md",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/controllers/shipping_address_controller.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140320234539_add_email_to_stagings.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Vagrantfile",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/README.rdoc",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Rakefile",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/package.json",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/npm-debug.log",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/index.html",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Gemfile.lock",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config.ru",
+		"/Users/zaki/Downloads/terminal-finder.alfredworkflow",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/application.rb",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/sum",
+		"/etc/hosts",
+		"/Users/zaki/Dropbox/Development environments/Startupawards_dev/puphpet/config.yaml",
+		"/Users/zaki/Dropbox/Development environments/Startupawards_dev/central-european-startup-awards/wp-config.php",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/controllers/page_controller.rb",
+		"/Users/zaki/Dropbox/Development environments/Startupawards-dev/puphpet/config.yaml",
+		"/Users/zaki/Dropbox/Development environments/Startupawards_dev/puphpet/files/dot/ssh/insecure_private_key",
+		"/Users/zaki/Dropbox/Development environments/Startupawards-dev/manifest.pp",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/bin/rails",
+		"/Users/zaki/Desktop/backers_dummy_data.csv",
+		"/Users/zaki/Dropbox/Git repositories/AIRTAME-investor-pitch/index.html",
+		"/Users/zaki/Desktop/index.html",
+		"/Users/zaki/.zshrc",
+		"/Users/zaki/Library/Caches/Cleanup At Startup/Transmit/553EE4F5-B81D-4422-A25C-93EF4A919C1B/page-home.php",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/tmp/cache/assets/development/sprockets/c2afda548b6ce65159b4d12c9d817aa6",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/page.rb",
+		"/Users/zaki/.gitconfig",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/initializers/secret_token.rb",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/zaki/Git repositories/indiegogo-backerscript/app/models/staging.rb",
+		"/Users/zaki/Git repositories/indiegogo-backerscript/Gemfile.lock",
+		"/Users/zaki/Git repositories/indiegogo-backerscript/app/controllers/stagings_controller.rb",
+		"/Users/zaki/Git repositories/indiegogo-backerscript/app/controllers/customers_controller.rb",
+		"/Users/zaki/Git repositories/indiegogo-backerscript/app/models/customer.rb",
+		"/Users/zaki/Git repositories/indiegogo-backerscript/app/views/layouts/application.html.erb",
+		"/Users/zaki/Git repositories/indiegogo-backerscript/app/views/customers/index.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"icon",
+			"F1F2F2",
+			"shado",
+			"shadow",
+			"margin",
+			"cyan",
+			"t",
+			"T",
+			"t",
+			"T",
+			"t",
+			"T",
+			"C",
+			"width: 100%;",
+			"$width;",
+			"#4679BD",
+			"width%",
+			"8.33",
+			"25%",
+			".triangle-",
+			"333333",
+			"120px",
+			"up",
+			"10px",
+			"60px",
+			"20px",
+			"inner",
+			"paper-in",
+			"header",
+			",0",
+			"\n",
+			"				bright: \"255, 255, 255\",\n				medium: \"247, 247, 247\",\n				dark: \"227, 227, 227\"",
+			";\n",
+			"rgb",
+			"comment",
+			"breakpo",
+			".paper-background.container",
+			"order_amount",
+			"'",
+			"\\r\\n",
+			"&#13;&#10;",
+			"\\n",
+			"pledge_",
+			"cust",
+			"jorgelorenzo13@gmail.com",
+			"davidrodney@gmail.com",
+			"kakumanu.sudhir@gmail.com",
+			"ades_666_@hotmail.com",
+			"djnas786@gmail.com",
+			"pentafive@gmail.com",
+			"@customer = Customer.includes(:shipping_address)",
+			"shipping_addresses",
+			"shipping",
+			"5371875",
+			"5265516",
+			"5272454",
+			"5372260",
+			"5372338",
+			"sudhir",
+			"kakumanu",
+			"kakumanu.sudhir@gmail.com",
+			"_+igg@kn.gl",
+			"zzu",
+			"gsalom",
+			",\"$",
+			",$",
+			", ,",
+			"@",
+			"LIKE ? or",
+			"shipping_addresses.",
+			".",
+			"help",
+			",",
+			"theodor",
+			"blank",
+			"naomivanwijk@hotmail.com",
+			"fmotti",
+			"orders_can_be_shipped",
+			"calculate_shipping",
+			"id)",
+			"orders_ca",
+			"self",
+			"shipping:",
+			"guess['expected_price']",
+			"samantha",
+			" price",
+			"price",
+			"@guess",
+			"@guess['price']",
+			"johndoucet@comcast.net",
+			"jens@hillerup.net",
+			"mrb@martinb.eu",
+			"fmottiat",
+			"binding",
+			"tomas gra",
+			"sum",
+			"get_perk_price",
+			"get_perk_p",
+			"alexey.rusakov@gmail.com",
+			"search",
+			"Iversen",
+			"michaelbiversen",
+			"order-s",
+			"indiegogo@beechills.de",
+			"'\n",
+			"rschoell@gmx.de",
+			"diff",
+			"pbsoaresf@outlook.com",
+			"blank per",
+			"blank",
+			"debugger",
+			"calculate_s",
+			"invalid",
+			"order",
+			"for",
+			"unit_price",
+			"price",
+			"total_d",
+			"diff",
+			"total_d",
+			"populate_per",
+			"shipping_",
+			"shipping_c",
+			"shipping",
+			"shipping:",
+			"shipping",
+			"SHIPPING",
+			"shipping"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$width/2;",
+			"width",
+			" ",
+			"</th><th>",
+			"",
+			"\\n",
+			"",
+			"`domain_id` = 2",
+			">\n",
+			"'",
+			"",
+			"\n",
+			">\n",
+			"http://staging.cesawards.com",
+			"Nordic Startup Awards",
+			"nordicstartupawards.com",
+			"grey",
+			"class=\"logo\" ",
+			"",
+			"<td class=\"ranking\">1000</td>",
+			"</td>\n            <td class=\"artist\">",
+			"<td class=\"title\">",
+			"</td><td class=\"ranking\"></td>\n        </tr>",
+			"",
+			"'",
+			"author",
+			"full-height",
+			"@def-trans",
+			"@def",
+			"",
+			"tab-pane col-md-4",
+			"tab-pane col-md-3",
+			"",
+			"#popular",
+			"../../assets/",
+			"",
+			"\"prize-container span4\"",
+			"img src=\"img/winternet.jpg\"",
+			"",
+			"js"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1439,
+								1454
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3707,
+						"regions":
+						{
+							"gutter_color_1683":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/7b919d.png",
+								"regions":
+								[
+									[
+										1683,
+										1721
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3257":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/8fb6d0.png",
+								"regions":
+								[
+									[
+										3256,
+										3256
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3289":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/8fb6d0.png",
+								"regions":
+								[
+									[
+										3256,
+										3256
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3290":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/8fb6d0.png",
+								"regions":
+								[
+									[
+										3256,
+										3256
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3922":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/8fb6d0.png",
+								"regions":
+								[
+									[
+										3256,
+										3256
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3923":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/8fb6d0.png",
+								"regions":
+								[
+									[
+										3256,
+										3256
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								2438,
+								2438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/utility.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/shapes.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1427,
+						"regions":
+						{
+							"gutter_color_1055":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1069,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1079":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										417,
+										417
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1084":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1069,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1110":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										373,
+										411
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1123":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1069,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1130":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1069,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1131":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1069,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1196":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1291":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										564,
+										770
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1301":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										572,
+										774
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1363":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1382,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1383":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1382,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1394":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1382,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1431":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1382,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1435":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										734,
+										770
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1441":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1382,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1442":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1382,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1452":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										777,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1488":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										777,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1503":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										777,
+										777
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1621":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										900,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1624":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1740":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1069,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1795":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1111,
+										1111
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1797":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1111,
+										1111
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1803":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1069,
+										1104
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1804":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1111,
+										1111
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1946":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1237,
+										1423
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1954":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1245,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2017":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1382,
+										1419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2021":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2025":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2092":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2098":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2099":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2104":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2117":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2168":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2397":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2401":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2766":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_2770":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3094":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3098":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3398":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3402":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3744":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_3748":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										1427,
+										1427
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_421":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										373,
+										411
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_437":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										373,
+										411
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_438":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										373,
+										411
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_439":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										373,
+										411
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_725":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										734,
+										770
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_757":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										734,
+										770
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_793":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										734,
+										770
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_797":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										734,
+										770
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_798":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										734,
+										770
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_971":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/4679BD.png",
+								"regions":
+								[
+									[
+										235,
+										415
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								190,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 220.0
+	},
+	"project": "zkwsk.com.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"scss/app.scss"
+			],
+			[
+				"shap",
+				"scss/shapes.scss"
+			],
+			[
+				"colo",
+				"scss/colors.scss"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"co",
+				"scss/colors.scss"
+			],
+			[
+				"col",
+				"scss/colors.scss"
+			],
+			[
+				"_s",
+				"scss/_settings.scss"
+			],
+			[
+				"sttin",
+				"scss/_settings.scss"
+			],
+			[
+				"sha",
+				"scss/shapes.scss"
+			],
+			[
+				"shape",
+				"scss/shapes.scss"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"custom",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"cust",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"todo",
+				"TODOS.md"
+			],
+			[
+				"custom_c",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"appli",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"customers_",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"applic",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"",
+				"app/views/stagings/index.html.erb"
+			],
+			[
+				"appl",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"layou",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"inde",
+				"app/views/customers/index.html.erb"
+			],
+			[
+				"index",
+				"app/views/customers/index.html.erb"
+			],
+			[
+				"stagin",
+				"app/models/staging.rb"
+			],
+			[
+				"custoer",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"stag",
+				"app/models/staging.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"order",
+				"app/models/order.rb"
+			],
+			[
+				"cu",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"customer",
+				"app/models/customer.rb"
+			],
+			[
+				"custo",
+				"app/models/customer.rb"
+			],
+			[
+				"per",
+				"db/perks.yml"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"ord",
+				"app/models/order.rb"
+			],
+			[
+				"applica",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"staging",
+				"app/models/staging.rb"
+			],
+			[
+				"to",
+				"TODOS.md"
+			],
+			[
+				"sta",
+				"app/models/staging.rb"
+			],
+			[
+				"cus",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"add_gu",
+				"db/migrate/20140514140247_add_guessed_to_perks.rb"
+			],
+			[
+				"remove",
+				"db/migrate/20140514140014_remove_guessed_from_perk.rb"
+			],
+			[
+				"bool_to_",
+				"db/migrate/20140514134529_change_bool_to_int.rb"
+			],
+			[
+				"remov",
+				"db/migrate/20140514133627_remove_column_unit_price_from_perk.rb"
+			],
+			[
+				"addcolumnto",
+				"db/migrate/20140514133417_add_column_to_perks.rb"
+			],
+			[
+				"perk",
+				"app/models/perk.rb"
+			],
+			[
+				"add_col",
+				"db/migrate/20140514123211_add_column_expected_price_to_orders.rb"
+			],
+			[
+				"customer.",
+				"app/models/customer.rb"
+			],
+			[
+				"customers_c",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"customers",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"controll",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"contr",
+				"app/controllers/stagings_controller.rb"
+			],
+			[
+				"host",
+				"/etc/hosts"
+			],
+			[
+				"stagi",
+				"app/models/staging.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"gemfi",
+				"Gemfile"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"scaff",
+				"app/assets/stylesheets/scaffolds.css.scss"
+			],
+			[
+				"ine",
+				"app/views/customers/index.html.erb"
+			],
+			[
+				"datab",
+				"config/database.yml"
+			],
+			[
+				"cn",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"orde",
+				"app/models/order.rb"
+			],
+			[
+				"cut",
+				"app/models/customer.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"emfi",
+				"Gemfile"
+			],
+			[
+				"deveo",
+				"config/environments/development.rb"
+			],
+			[
+				"environ",
+				"config/environments/development.rb"
+			],
+			[
+				"stagings",
+				"app/controllers/stagings_controller.rb"
+			],
+			[
+				"addex",
+				"db/migrate/20140402114005_add_expected_price_to_perk.rb"
+			],
+			[
+				"customer_c",
+				"app/controllers/customers_controller.rb"
+			],
+			[
+				"in",
+				"app/views/customers/index.html.erb"
+			],
+			[
+				"adds",
+				"db/migrate/20140331134226_add_shipping_to_customer.rb"
+			],
+			[
+				"routs",
+				"config/routes.rb"
+			],
+			[
+				"shipp",
+				"app/models/shipping_address.rb"
+			],
+			[
+				"customers/in",
+				"app/views/customers/index.html.erb"
+			],
+			[
+				"stagn",
+				"app/models/staging.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"staging_",
+				"app/controllers/stagings_controller.rb"
+			],
+			[
+				"envir",
+				"config/environment.rb"
+			],
+			[
+				"migrat",
+				"db/migrate/20140320234539_add_email_to_stagings.rb"
+			],
+			[
+				"staghtml",
+				"app/views/stagings/index.html.erb"
+			],
+			[
+				"stagig",
+				"app/controllers/stagings_controller.rb"
+			],
+			[
+				"form",
+				"app/views/products/_form.html.erb"
+			],
+			[
+				"grou",
+				"app/views/backers/groupBackers.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"bac",
+				"app/controllers/backers_controller.rb"
+			],
+			[
+				"bak",
+				"app/models/backer.rb"
+			],
+			[
+				".js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"nop",
+				"app/views/backers/noPerk.html.erb"
+			],
+			[
+				"test.ht",
+				"app/views/backers/test.html.erb"
+			],
+			[
+				"backersco",
+				"app/controllers/backers_controller.rb"
+			],
+			[
+				"bcker",
+				"app/models/backer.rb"
+			],
+			[
+				"backer",
+				"test/fixtures/backers.yml"
+			],
+			[
+				"back",
+				"app/models/backer.rb"
+			],
+			[
+				"show.ht",
+				"app/views/carts/show.html.erb"
+			],
+			[
+				"line_",
+				"test/controllers/line_items_controller_test.rb"
+			],
+			[
+				"lin",
+				"app/controllers/line_items_controller.rb"
+			],
+			[
+				"store.c",
+				"app/assets/stylesheets/store.css.scss"
+			],
+			[
+				"produc",
+				"app/models/product.rb"
+			],
+			[
+				"cart",
+				"app/models/cart.rb"
+			],
+			[
+				"store",
+				"tmp/cache/assets/development/sass/1d59b38f33c06bcd70348273f5c3af427f6fe14a/store.css.scssc"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"product.rb",
+				"app/models/product.rb"
+			],
+			[
+				"prod",
+				"app/models/product.rb"
+			],
+			[
+				"deve",
+				"config/environments/development.rb"
+			],
+			[
+				"fixtu",
+				"test/fixtures/products.yml"
+			],
+			[
+				"fix",
+				"test/fixtures/products.yml"
+			],
+			[
+				"store_con",
+				"test/controllers/store_controller_test.rb"
+			],
+			[
+				"index.",
+				"app/views/store/index.html.erb"
+			],
+			[
+				"store_",
+				"app/controllers/store_controller.rb"
+			],
+			[
+				"produ",
+				"test/fixtures/products.yml"
+			],
+			[
+				"pro",
+				"test/models/product_test.rb"
+			],
+			[
+				"producst_controller_te",
+				"test/controllers/products_controller_test.rb"
+			],
+			[
+				".i",
+				".gitignore"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"_for",
+				"app/views/products/_form.html.erb"
+			],
+			[
+				"cre",
+				"db/migrate/20140315154612_create_products.rb"
+			],
+			[
+				"databa",
+				"config/database.yml"
+			],
+			[
+				"2014",
+				"db/migrate/20140315154612_create_products.rb"
+			],
+			[
+				"hell",
+				"app/views/say/hello.html.erb"
+			],
+			[
+				"say",
+				"app/controllers/say_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"indi",
+				"~/Dropbox/Development environments/indiegogo-backerscript/Indie.sublime-project"
+			],
+			[
+				"",
+				"~/Dropbox/Development environments/backpack/backpack/backpack.sublime-project"
+			],
+			[
+				"vot",
+				"~/Dropbox/Development environments/heroku-dev/voting.sublime-project"
+			],
+			[
+				"voti",
+				"~/Dropbox/Development environments/heroku-dev/voting.sublime-project"
+			],
+			[
+				"in",
+				"~/Dropbox/Development environments/indiegogo-backerscript/Indie.sublime-project"
+			],
+			[
+				"order",
+				"~/Git repositories/ordermatch/ordermatch.sublime-project"
+			],
+			[
+				"four",
+				"~/Git repositories/fireworks/private/cakephp-2.4.2/app/fourpio.sublime-project"
+			],
+			[
+				"ethe",
+				"~/Git repositories/etherpad-lite/etherpad-test.sublime-project"
+			],
+			[
+				"eth",
+				"~/Git repositories/etherpad-lite/etherpad-test.sublime-project"
+			],
+			[
+				"etherp",
+				"~/Git repositories/etherpad-lite/etherpad-test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,16 @@
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-container.is-table { 
+  display: table;
+}
+.is-table .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.is-table .center-block {
+  width: 50%;
+  margin: 0 auto;
+}

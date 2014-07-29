@@ -1,5 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import "compass";
 @import "settings";
 @import "foundation";
+@import "utility";
+@import "colors";
+@import "shapes";
 
 // Or selectively include components
 // @import
@@ -38,3 +43,130 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+/* Compass configuration */
+
+// Box shadow
+
+// $default-box-shadow-color: #7b919d;
+$default-box-shadow-color: rgba(0,0,0,0.35);
+$default-box-shadow-blur: 10px;
+$default-box-shadow-v-offset: 2px;
+
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: $cyan-bright;
+}
+
+p {
+  text-align: justify;
+}
+.text-box { 
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.header {
+  background-color: $red;
+  position: relative;
+  // @include single-box-shadow;
+
+  .header-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 33.3333333333%;
+
+    background: url(../img/bg_top.svg);
+    background-size: contain;
+  }
+
+  .header-video {
+    z-index: 10;
+    width: 35.4166667%;
+    display:block;
+    position: absolute;
+    top: -2.75%;
+    left: 32.31%;
+
+
+    -webkit-transform:rotate(45deg);
+  }
+
+  .logo-container {
+    z-index: 100;
+    opacity: 0.8;
+    position: relative;
+    // display: none;
+
+    // padding-top: 8.3333333%;
+    width: 16.666667%;
+    margin: 0 auto;
+
+    .img-container-1x {
+      height: 0;
+      width: 100%;
+      padding-bottom: 50%;
+    }
+    .img-container-2x {
+      height: 0;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+    img {
+      height: auto;
+      display: block;
+      width: 100%;
+    }
+    .resume-title {
+      padding-top: 37%;
+    }
+    .logo-subtitle {
+      padding-top: 14%;
+    }
+  }
+
+}
+section.grey {
+  background-color: $dark-grey;
+
+  .grey-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 25%;
+
+    background: url(../img/bg_middle.svg);
+    background-size: contain;
+  }
+}
+section.cyan {
+  background: $cyan-dark;
+
+  @include single-box-shadow;
+
+  color: $white;
+
+  .cyan-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 33.33333333333%;
+
+    background: url(../img/bg_bottom.svg);
+    background-size: contain;
+  }
+
+}
+
+.triangle-down-2.red {
+  @include triangle-down(16.6666667%, $red);
+}
+.triangle-down-2.cyan-dark {
+  @include triangle-down(16.6666667%, $cyan-dark);
+}
+
+section.cyan, .paper-container {
+  display: none;
+}
