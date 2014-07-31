@@ -13,9 +13,10 @@
 <line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="960.5" y1="480.354" x2="1440" y2="1.353"/>
 <line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1440" y1="161.478" x2="1600" y2="321.354"/>
 <line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="160" y1="480.354" x2="0" y2="641.354"/>
-<line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1599.5" y1="480.354" x2="1760" y2="640.354"/>
+<line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1759.5" y1="320.353" x2="1920" y2="480.354"/>
+<line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1600" y1="320.5" x2="1760" y2="320.5"/>
 <line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1759.5" y1="1.353" x2="1760" y2="161.853"/>
 <line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="159.5" y1="1.353" x2="160" y2="480.354"/>
-<line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1599.5" y1="161" x2="1599.5" y2="480"/>
+<line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1599.5" y1="161" x2="1599.5" y2="321"/>
 <line fill="none" stroke="#AAC8D9" stroke-miterlimit="10" x1="1599" y1="161.5" x2="1920" y2="161.5"/>
 </svg>

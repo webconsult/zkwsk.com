@@ -64,6 +64,12 @@ body {
 
 p {
   text-align: justify;
+  font-weight: 100;
+}
+h1, h2, h3, h4, h5 {
+  color: $white;
+  font-weight: 100;
+  text-align: center;
 }
 .text-box { 
   padding-top: 2em;
@@ -99,7 +105,7 @@ p {
   .logo-container {
 
     &.opaque {
-      opacity: 0.6;
+      opacity: 0.7;
     }
 
     z-index: 100;
@@ -155,11 +161,11 @@ section.cyan {
   color: $white;
 
   .cyan-container {
-    height: 0;
     width: 100%;
-    padding-bottom: 33.33333333333%;
+    // padding-bottom: 33.33333333333%;
 
     background: url(../img/bg_bottom.svg);
+    background-repeat: no-repeat;
     background-size: contain;
   }
 
@@ -170,4 +176,52 @@ section.cyan {
 }
 .triangle-down-2.cyan-dark {
   @include triangle-down(16.6666667%, $cyan-dark);
+}
+
+.row-justified {
+  margin: 4em 0;
+  text-align: justify;
+
+  [class^="client-icon"] {
+    display: inline-block;
+  }
+  .client-icon-airtame {
+    width: 27.2030651%;
+  }
+  .client-icon-drobe {
+    width: 12.899106%;
+  }
+  .client-icon-cbs {
+    width: 27.5862069%;
+  }
+  .client-icon-nsa {
+    width: 14.1762452%;
+  }
+  .client-icon-tigerspring {
+    width: 15.5172414%;
+  }
+  .client-icon-suitable {
+    width: 16.5364583%;
+  }
+  .client-icon-cesa {
+    width: 16.015625%;
+  }
+  .client-icon-dakom {
+    width: 16.4112388%;
+  }
+  .client-icon-formpipe {
+    width: 17.2413793%;
+  }
+  .client-icon-agillic {
+    width: 12.0689655%;
+  }
+  &:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+  }
+}
+.avatar {
+  float: left;
+  margin-right: 1.5em;
 }
