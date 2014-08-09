@@ -57,12 +57,22 @@ html {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
 }
+canvas {
+  width: 100%;
+  border: red solid 2px;
+}
 
 body {
   background-color: $cyan-bright;
 }
-
+.button a {
+  color: $white;
+  &:hover {
+    color: $white;
+  }
+}
 p {
+  color: $white;
   text-align: justify;
   font-weight: 100;
 }
@@ -71,11 +81,17 @@ h1, h2, h3, h4, h5 {
   font-weight: 100;
   text-align: center;
 }
-.text-box { 
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
 
+button, .button {
+  background-color: transparent;
+  border: 2px solid $white;
+  border-radius: 2em;
+  width: 100%;
+
+  &:hover, &:focus {
+    background-color: $cyan-bright;
+  }
+}
 .header {
   background-color: $red;
   position: relative;
@@ -92,11 +108,13 @@ h1, h2, h3, h4, h5 {
 
   .header-video {
     z-index: 10;
-    width: 35.4166667%;
+    // width: 35.4166667%;
+    width: 35.2%;
     display:block;
     position: absolute;
     top: -2.75%;
-    left: 32.31%;
+    // left: 32.31%;
+    left: 32.42%;
 
 
     -webkit-transform:rotate(45deg);
@@ -140,6 +158,43 @@ h1, h2, h3, h4, h5 {
     }
   }
 
+  .scroll-down .triangle-down-2 {
+    position: absolute;
+    left: (50% - 8.333333333%);
+    z-index: 100;
+  }
+  .triangle-label {
+    color: $white;
+    display: block;
+    width: 16.66666667%;
+    text-align: center;
+    font-weight: 100;
+    // font-style: italic;
+    font-size: 1rem;
+    position: relative;
+    z-index: 100;
+    padding-top: 0.5em;
+    font-size: 1.8em;
+
+  }
+  @media all and (max-width: 1440px) {
+    .triangle-label {
+      padding-top: 0.5em;
+      font-size: 1.4em;
+    }
+  }
+  @media all and (max-width: 1024px) {
+    .triangle-label {
+      padding-top: 0.5em;
+      font-size: 0.9em;
+    }
+  }
+  @media all and (max-width: 640px) {
+    .triangle-label {
+      padding-top: 0.4em;
+      font-size: 0.60em;
+    }
+  }
 }
 section.grey {
   background-color: $dark-grey;
@@ -163,12 +218,83 @@ section.cyan {
   .cyan-container {
     width: 100%;
     // padding-bottom: 33.33333333333%;
+    // height: 0;
 
     background: url(../img/bg_bottom.svg);
     background-repeat: no-repeat;
     background-size: contain;
   }
 
+}
+section.skills {
+  color: $dark-grey;
+  background-color: $white;
+  height: 0;
+  padding-bottom: 150%;
+
+  h1, h2, h3, h4 {
+    color: $dark-grey;
+  }
+  .skill-list {
+    display: none;
+  }
+  .circle {
+    position: relative;
+    float: left;
+    border-radius: 50%;
+    width: 28%;
+    margin-top: 4%;
+    margin-left: 4%;
+    height: 0;
+    padding-bottom: 28%;
+    border: 1px solid $dark-grey;
+
+    h3 {
+      font-size: 1.2rem;
+      position: relative;
+      top: 39%;
+    }
+  }
+  .venn-diagram {
+    .circle {
+    &.circle-left {
+      left: 20.5%;
+      top: 130px;
+    }
+    &.circle-middle {
+      
+    }
+    &.circle-right {
+      right: 20.5%;
+      top: 130px;
+    }
+    }
+  }
+  svg {
+    width: 100%;
+    .line {
+      stroke: black;
+      stroke-dasharray: 1300;
+      stroke-dashoffset: 1300;
+    }
+
+  }
+  svg.animate .line {
+    -webkit-animation: dash 2s linear forwards;
+  }
+}
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1300;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+footer {
+  background-color: $dark-grey;
+  height: 0;
+  padding-bottom: 25%;
 }
 
 .triangle-down-2.red {
@@ -221,7 +347,43 @@ section.cyan {
     display: inline-block;
   }
 }
-.avatar {
-  float: left;
-  margin-right: 1.5em;
+.introduction {
+
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  .avatar {
+    margin-bottom:1em;
+    border-radius: 50%;
+  }
+
+}
+.main {
+  position: relative;
+  
+  .clients {
+    height: 0;
+    padding-bottom: 41.6666667%;
+  }
+}
+.paper-container {
+  position: relative;
+  left: 0;
+  -webkit-transition:all 1.0s ease-in-out;
+  -moz-transition:all 1.0s ease-in-out;
+  -o-transition:all 1.0s ease-in-out;
+  transition:all 1.0s ease-in-out;
+
+}
+.paper-container.off-canvas {
+  left: -10000px;
+}
+.paper-container.remove-from-flow {
+  position: absolute;
+}
+.clients {
+  padding-top: 3em;
+}
+html.touch .header-video video {
+  display: none;
 }

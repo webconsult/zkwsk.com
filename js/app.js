@@ -1,4 +1,17 @@
-var video;
+// (function(){
+
+//     // Define overriding method.
+//     jQuery.fn.hide = function(){
+//       //Use the foundation class to hide elements rather than inline styling.
+//       $(this).addClass('hide');
+//     };
+//     // Define overriding method.
+//     jQuery.fn.show = function(){
+//       $(this).removeClass('hide');
+//     };
+
+// })();
+
 
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
@@ -6,11 +19,9 @@ $(document).foundation();
 
 $(document).ready(function(){
 
-  video = document.getElementsByTagName('video')[0];
 
-  $('.logo').hide();
-  $('.resume-title').hide();
-  $('.logo-subtitle').hide();
+  var video = document.getElementsByTagName('video')[0];
+
 
   setTimeout(function(){
     $('.logo').fadeIn(200);
@@ -24,23 +35,92 @@ $(document).ready(function(){
     $('.resume-title').fadeIn(200);
   }, 2500);
 
+  var playVideo = function () {
+    $('html.no-touch .logo-container').addClass('opaque');
+    video = $('html.no-touch .header-video');
+    video.get(0).play();
+    video.fadeIn(1200);
+  };
+
   setTimeout(function(){
     playVideo();
   },3000);
 
-  $( '.header-video' ).on('timeupdate', function(event){
+  $( 'html.no-touch .header-video' ).on('timeupdate', function(){
     if( this.currentTime > ( this.duration - 3 ) ) {
-      // $( '.header-video' ).get(0).fadeOut(3000);
+      // $( 'html.no-touch .header-video' ).get(0).fadeOut(3000);
       $(this).fadeOut(3000, function(){
         $('.logo-container').removeClass('opaque');
+        $(this).hide();
       });
     }
   });
-});
+  $('html.no-touch .header-video').get(0).onended = function() {
+    showScroller();
+  };
+  $('html.no-touch .header-video').on('mouseover',function(){
+    showScroller();
+  })
+  $('html.no-touch .header-video').on('mouseout',function(){
+    hideScroller();
+  })
 
-playVideo = function () {
-  $('.logo-container').addClass('opaque');
-  video = $('.header-video');
-  video.get(0).play();
-  video.fadeIn(1200);
-}
+  showScroller = function() {
+    // $('.scroll-down').removeClass('hide-for-medium-up');
+    $('.scroll-down').fadeIn(5000);
+  };
+
+  hideScroller = function() {
+    // $('.scroll-down').addClass('hide-for-medium-up');
+    $('.scroll-down').fadeOut(5000);
+  };
+
+
+  $('a[href^="#action_"]').on('click',function(e){
+    e.preventDefault();
+  });
+
+  var paperHidden = true;
+
+  $('[href="#paper"').on('click',function(e){
+    var elem = $('.paper-container');
+
+    if (paperHidden) {
+      $('#clients').fadeOut(500, function(){
+        elem.removeClass('remove-from-flow');
+      });
+      elem.removeClass('off-canvas');
+
+    } else {
+      e.preventDefault();
+      // $('#clients').fadeIn(1000, function(){
+      //   elem.addClass('off-canvas');
+      //   setTimeout(function(){
+      //     elem.addClass('remove-from-flow');
+      //   },1000);
+      // });
+
+      elem.addClass('off-canvas');
+      setTimeout(function(){
+        elem.addClass('remove-from-flow');
+      },1000);
+      $('#clients').fadeIn(500);
+    }
+    paperHidden = !paperHidden;
+  });
+
+  $('a[data-smooth-scroll]').click(function() {
+    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+
+}); //document ready
+
