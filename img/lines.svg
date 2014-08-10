@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920px"
+	 height="1760px" viewBox="0 0 1920 1760" enable-background="new 0 0 1920 1760" xml:space="preserve">
+<g id="Layer_2">
+	<path fill="none" stroke="#F1F2F2" stroke-miterlimit="10" d="M-80,240"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="160,0 160,640 0,801 	"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="320,0 320,800 160,960 160,1280 160,1440 0,1600 	
+		"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="160,960 320,960 480,800 480,0 320,160 	"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="640" y1="0" x2="640" y2="160"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="640,480 640,640 800,800 800,960 480,1280 
+		480,1440 160,1760 	"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="800,0 480,320 960,800 1440,320 1120,0 	"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="1280" y1="0" x2="1280" y2="160"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="1280,480 1280,640 1440,800 1280,960 1120,800 	"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="1440,0 1440,640 1760,960 	"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="1920,1760 1760,1600.125 1920,1439 1920,1280 
+		1760,1120 1760,960 1920,800 1760,640 1760,0 1600,0 1600,640 1760,800 1920,800 	"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="1920" y1="480" x2="1760" y2="320"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="1760" y1="0" x2="1600" y2="160"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="1600" y1="480" x2="1440" y2="640"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="320" y1="640" x2="160" y2="480"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="160" y1="160" x2="0" y2="0"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="480,1440 320,1280 480,1120 640,960 480,800 	"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="1120,640 1120,800 960,960 800,960 800,1120 
+		480,1440 	"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="1280,960 1440,960 1600,1120 1600,1280 1760,1440 
+		1760,1600 	"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="160" y1="1440" x2="320" y2="1600"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="1600,1280 1600,1440 1600,1600 1760,1760 	"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="1600" y1="800" x2="1600" y2="1120"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="0" y1="960" x2="160" y2="1120"/>
+	<polyline fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="960,960 1120,1120 1280,1120 1440,1280 
+		1440,1440 1600,1600 	"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="1440" y1="960" x2="1280" y2="1120"/>
+	<line fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="1120" y1="1120" x2="1440" y2="1440"/>
+</g>
+</svg>

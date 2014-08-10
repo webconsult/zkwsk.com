@@ -92,6 +92,38 @@ button, .button {
     background-color: $cyan-bright;
   }
 }
+.background-image {
+
+  svg {
+    position: absolute;
+    width: 100%;
+  }
+  svg#bg_top .line {
+
+    stroke-dasharray: 640;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+    stroke: $white;
+
+    -webkit-animation: dash 2s linear forwards;
+    animation: dash 2s linear;
+    &.fast {
+      -webkit-animation-duration: 1s;
+    }
+    &.slow {
+      -webkit-animation-duration: 2.5s;
+    }
+  }
+  
+}
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 640;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 .header {
   background-color: $red;
   position: relative;
@@ -102,8 +134,8 @@ button, .button {
     width: 100%;
     padding-bottom: 33.3333333333%;
 
-    background: url(../img/bg_top.svg);
-    background-size: contain;
+    // background: url(../img/bg_top.svg);
+    // background-size: contain;
   }
 
   .header-video {
@@ -204,8 +236,8 @@ section.grey {
     width: 100%;
     padding-bottom: 25%;
 
-    background: url(../img/bg_middle.svg);
-    background-size: contain;
+    // background: url(../img/bg_middle.svg);
+    // background-size: contain;
   }
 }
 section.cyan {
@@ -220,9 +252,9 @@ section.cyan {
     // padding-bottom: 33.33333333333%;
     // height: 0;
 
-    background: url(../img/bg_bottom.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    // background: url(../img/bg_bottom.svg);
+    // background-repeat: no-repeat;
+    // background-size: contain;
   }
 
 }
@@ -270,27 +302,8 @@ section.skills {
     }
     }
   }
-  svg {
-    width: 100%;
-    .line {
-      stroke: black;
-      stroke-dasharray: 1300;
-      stroke-dashoffset: 1300;
-    }
+}
 
-  }
-  svg.animate .line {
-    -webkit-animation: dash 2s linear forwards;
-  }
-}
-@-webkit-keyframes dash {
-  from {
-    stroke-dashoffset: 1300;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
 footer {
   background-color: $dark-grey;
   height: 0;
