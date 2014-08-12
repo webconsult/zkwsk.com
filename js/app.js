@@ -1,18 +1,3 @@
-// (function(){
-
-//     // Define overriding method.
-//     jQuery.fn.hide = function(){
-//       //Use the foundation class to hide elements rather than inline styling.
-//       $(this).addClass('hide');
-//     };
-//     // Define overriding method.
-//     jQuery.fn.show = function(){
-//       $(this).removeClass('hide');
-//     };
-
-// })();
-
-
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
@@ -20,32 +5,30 @@ $(document).foundation();
 $(document).ready(function(){
 
 
-  var video = document.getElementsByTagName('video')[0];
-
-
+  //Fades in the logo
   setTimeout(function(){
     $('.logo').fadeIn(200);
   }, 500);
 
+  // Fades in the logo subtitle
   setTimeout(function(){
     $('.logo-subtitle').fadeIn(200);
   }, 1500);
 
-  setTimeout(function(){
-    $('.resume-title').fadeIn(200);
-  }, 2500);
-
-  var playVideo = function () {
-    $('html.no-touch .logo-container').addClass('opaque');
-    video = $('html.no-touch .header-video');
-    video.get(0).play();
-    video.removeClass('hidden');
-  };
-
+  //Play video after 3s
   setTimeout(function(){
     playVideo();
   },3000);
 
+  //Makes the logo overlay opaque, starts video playback and fades the video in
+  var playVideo = function () {
+    $('html.no-touch .logo-container').addClass('opaque');
+    var video = $('html.no-touch .header-video');
+    video.get(0).play();
+    video.removeClass('hidden');
+  };
+
+  //Sets up an event to trigger 3 sec before the video ends and starts to fade in profile pic
   $( 'html.no-touch .header-video' ).on('timeupdate', function(){
     if( this.currentTime > ( this.duration - 3 ) ) {
       // $( 'html.no-touch .header-video' ).get(0).fadeOut(3000);
@@ -58,17 +41,18 @@ $(document).ready(function(){
   };
   $('html.no-touch .header-video').on('mouseover',function(){
     showScroller();
-  })
+  });
   $('html.no-touch .header-video').on('mouseout',function(){
     hideScroller();
-  })
+  });
 
-  showScroller = function() {
+  // Show triangular scroll-button
+  var showScroller = function() {
     // $('.scroll-down').removeClass('hide-for-medium-up');
     $('.scroll-down').fadeIn(1000);
   };
-
-  hideScroller = function() {
+  // Hide triangular scroll-button
+  var hideScroller = function() {
     // $('.scroll-down').addClass('hide-for-medium-up');
     $('.scroll-down').fadeOut(1000);
   };
@@ -78,30 +62,27 @@ $(document).ready(function(){
     e.preventDefault();
   });
 
-  var paperHidden = true;
+  //Deprecated code to hide and show the paper CV
+  // var paperHidden = true;
+  // $('[href="#paper"]').on('click',function(e){
+  //   var elem = $('.paper-container');
+  //   if (paperHidden) {
+  //     $('#clients').fadeOut(500, function(){
+  //       elem.removeClass('remove-from-flow');
+  //     });
+  //     elem.removeClass('off-canvas');
+  //   } else {
+  //     e.preventDefault();
+  //     elem.addClass('off-canvas');
+  //     setTimeout(function(){
+  //       elem.addClass('remove-from-flow');
+  //     },1000);
+  //     $('#clients').fadeIn(500);
+  //   }
+  //   paperHidden = !paperHidden;
+  // });
 
-  $('[href="#paper"]').on('click',function(e){
-    var elem = $('.paper-container');
-
-    if (paperHidden) {
-      $('#clients').fadeOut(500, function(){
-        elem.removeClass('remove-from-flow');
-      });
-      elem.removeClass('off-canvas');
-
-    } else {
-      e.preventDefault();
-
-
-      elem.addClass('off-canvas');
-      setTimeout(function(){
-        elem.addClass('remove-from-flow');
-      },1000);
-      $('#clients').fadeIn(500);
-    }
-    paperHidden = !paperHidden;
-  });
-
+  //Smooth scrolling
   $('a[data-smooth-scroll]').click(function() {
     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
       var target = $(this.hash);
@@ -114,6 +95,21 @@ $(document).ready(function(){
       }
     }
   });
+
+
+
+  //Animation of VENN diagram
+  $('.venn-diagram').waypoint(function(){
+    $('.venn-diagram .container').addClass('animate-circle').addClass('animate-ux').addClass('animate-business').addClass('animate-development');
+  }, { offset: '80%' });
+  $('.venn-diagram').waypoint(function(){
+    $('.venn-diagram .container').addClass('animate-position');
+    $('.skill-list').animate({
+      opacity: 1,
+      top: 0
+    },500);
+  }, { offset: '30%' });
+
 
 }); //document ready
 

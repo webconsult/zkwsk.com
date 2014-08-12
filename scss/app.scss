@@ -123,15 +123,18 @@ button, .button {
     stroke: $white;
 
     -webkit-animation: dash 2s linear forwards;
+    animation: dash 2s linear forwards;
     animation: dash 2s linear;
     &.fast {
       -webkit-animation-duration: 1s;
+      animation-duration: 1s;
     }
     &.slow {
       -webkit-animation-duration: 2.5s;
+      animation-duration: 2.5s;
     }
   }
-  
+
 }
 
 .header {
@@ -159,18 +162,18 @@ button, .button {
     // left: 32.31%;
     left: 32.42%;
 
-    -webkit-transition: opacity 0.5s ease-in-out;
-    -moz-transition: opacity 0.5s ease-in-out;
-    -ms-transition: opacity 0.5s ease-in-out;
-    -o-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+
 
     &.hidden {
       opacity: 0;
     }
-
-
-    -webkit-transform:rotate(45deg);
+    @include rotate(45deg);
+    -o-transform: rotate(45deg);
   }
   .header-profile-pic {
     z-index: 9;
@@ -179,7 +182,9 @@ button, .button {
     top: -2.8%;
     left: 32.4%;
 
-    -webkit-transform: rotate(44.94deg);
+    @include rotate(45deg);
+    -o-transform: rotate(45deg);
+
   }
 
   .logo-container {
@@ -344,7 +349,7 @@ section.skills {
 }
 
   .venn-diagram {
-    
+
     .container {
       position: relative;
       height: 0;
@@ -378,12 +383,12 @@ section.skills {
           stroke: $dark-grey;
           fill: none;
           stroke-width: 10px;
-          stroke-opacity: 0%;
           stroke-dasharray: 4955.64404296875;
           stroke-dashoffset: 4955.64404296875;
-          
+
           &.animate {
             -webkit-animation: circle 2s linear forwards;
+            animation: circle 2s linear forwards;
           }
         }
         path.diamond {
@@ -392,9 +397,10 @@ section.skills {
           stroke: $dark-grey;
           stroke-dasharray: 560;
           stroke-dashoffset: 560;
-          
+
           &.animate {
             -webkit-animation: diamond 1.5s linear forwards;
+            animation: diamond 1.5s linear forwards;
           }
         }
 
@@ -407,6 +413,7 @@ section.skills {
 
           &.animate {
             -webkit-animation: wireframe 1.5s linear forwards;
+            animation: wireframe 1.5s linear forwards;
           }
         }
         path.abacus {
@@ -418,20 +425,25 @@ section.skills {
 
           &.animate {
             -webkit-animation: abacus 1.5s linear forwards;
+            animation: abacus 1.5s linear forwards;
           }
         }
       }
       &.animate-circle path.circle {
         -webkit-animation: circle 2s linear forwards;
+        animation: circle 2s linear forwards;
       }
       &.animate-business path.abacus {
         -webkit-animation: abacus 1.5s linear forwards;
+        animation: abacus 1.5s linear forwards;
       }
       &.animate-ux path.diamond {
         -webkit-animation: diamond 1.5s linear forwards;
+        animation: diamond 1.5s linear forwards;
       }
       &.animate-development path.wireframe {
         -webkit-animation: wireframe 1.5s linear forwards;
+        animation: wireframe 1.5s linear forwards;
       }
       &.animate-position svg {
         &#dev-circle {
@@ -454,7 +466,7 @@ section.skills {
 }
 section.get-in-touch {
   background-color: $dark-grey;
-  
+
   .row {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
@@ -551,22 +563,6 @@ footer {
   }
 
 }
-
-.paper-container {
-  position: relative;
-  left: 0;
-  -webkit-transition:all 1.0s ease-in-out;
-  -moz-transition:all 1.0s ease-in-out;
-  -o-transition:all 1.0s ease-in-out;
-  transition:all 1.0s ease-in-out;
-
-}
-.paper-container.off-canvas {
-  left: -10000px;
-}
-.paper-container.remove-from-flow {
-  position: absolute;
-}
 section.clients {
   p, h1, h2, h3, h4, h5 {
     //Tweak white color for slightly better contrast
@@ -632,20 +628,43 @@ html.touch .header-video video {
     stroke-dashoffset: 0;
   }
 }
+@keyframes dash {
+  from {
+    stroke-dashoffset: 640;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 @-webkit-keyframes circle {
   0% {
     stroke-dashoffset: 4955.64404296875;
-    stroke-opacity: 100%;
-  }
-  30% {
-    stroke-opacity: 100%;
   }
   100% {
     stroke-dashoffset: 0;
-    stroke-opacity: 100%;
+  }
+}
+@keyframes circle {
+  0% {
+    stroke-dashoffset: 4955.64404296875;
+  }
+  100% {
+    stroke-dashoffset: 0;
   }
 }
 @-webkit-keyframes diamond {
+  0% {
+    stroke-dashoffset: 560;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0%;
+  }
+  100% {
+    fill-opacity: 100%;
+  }
+}
+@keyframes diamond {
   0% {
     stroke-dashoffset: 560;
   }
@@ -669,7 +688,31 @@ html.touch .header-video video {
     fill-opacity: 100%;
   }
 }
+@keyframes wireframe {
+  0% {
+    stroke-dashoffset: 1075;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0%;
+  }
+  100% {
+    fill-opacity: 100%;
+  }
+}
 @-webkit-keyframes abacus {
+  0% {
+    stroke-dashoffset: 1071;
+  }
+  80% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0%;
+  }
+  100% {
+    fill-opacity: 100%;
+  }
+}
+@keyframes abacus {
   0% {
     stroke-dashoffset: 1071;
   }

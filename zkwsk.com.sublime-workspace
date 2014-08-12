@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"ea",
+				"ease-in-out"
+			],
+			[
 				"padding-",
-				"padding-left"
+				"padding-bottom"
 			],
 			[
 				"da",
@@ -510,55 +514,11 @@
 			[
 				"marg",
 				"margin"
-			],
-			[
-				"inline",
-				"inline-block"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 21380,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/app.scss",
-			"settings":
-			{
-				"buffer_size": 12903,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/shapes.scss",
-			"settings":
-			{
-				"buffer_size": 1427,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "scss/utility.scss",
-			"settings":
-			{
-				"buffer_size": 412,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 2892,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -566,6 +526,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
 			[
 				"prett",
 				"HTMLPrettify"
@@ -625,10 +589,6 @@
 			[
 				"dash",
 				"DashDoc: invoke Dash with selected word"
-			],
-			[
-				"trail",
-				"Trailing Spaces: Delete Trailing Spaces"
 			],
 			[
 				"inst",
@@ -931,7 +891,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 665.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -953,41 +913,44 @@
 	},
 	"file_history":
 	[
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/app.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/utility.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/shapes.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/config.rb",
+		"/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/es5-strictmode.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/63ab9043d55c608e175a0e030217b7fd519982e7/_css3.scssc",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/_settings.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower.json",
 		"/Users/zaki/Downloads/jquery-scrollspy-master/examples/fixednav.html",
 		"/Users/zaki/Downloads/jquery-scrollspy-master/examples/colors.html",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/8ed21693e22a044a02df250f568d2199f08dd844/_alternating-rows-and-columns.scssc",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/config.rb",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/AvenirNextLTPro-CnIt.otf",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/css-regions.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/venn.js",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/shapes.scss",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/utility.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/bg_cyan_dark.svg",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/bg_top.svg",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/svg-test.html",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/app.css",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
 		"/Users/zaki/Desktop/Apple Final Cut Pro v10.1.2 - [MUMBAI-TPB]/Follow Me.txt",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/README.md",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/zkwsk_logo_red.svg",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/_settings.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/canvas-todataurl-type.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/icons/style.css",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/css-objectfit.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.gitignore",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/getusermedia.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/paper.css",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/app.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/icons/selection.json",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/folded-paper.js",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/9e98899059faa3b18005340591952390d2ea17d0/_keystrokes.scssc",
 		"/Users/zaki/Dropbox/Webconsu.lt/web late 2013/index.html",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/foundation.html",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower.json",
 		"/Users/zaki/.zprofile",
 		"/Users/zaki/.profile",
 		"/Users/zaki/.zrofile",
@@ -1077,10 +1040,7 @@
 		"/Users/zaki/Desktop/index.html",
 		"/Users/zaki/.zshrc",
 		"/Users/zaki/Library/Caches/Cleanup At Startup/Transmit/553EE4F5-B81D-4422-A25C-93EF4A919C1B/page-home.php",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/tmp/cache/assets/development/sprockets/c2afda548b6ce65159b4d12c9d817aa6",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/page.rb",
-		"/Users/zaki/.gitconfig",
-		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings"
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/tmp/cache/assets/development/sprockets/c2afda548b6ce65159b4d12c9d817aa6"
 	],
 	"find":
 	{
@@ -1099,6 +1059,32 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"font",
+			"open-s",
+			"video",
+			"transf",
+			"transform",
+			"circle",
+			"stroke-dashoffset: 4955.64404296875;\n    stroke-opacity: 100%;",
+			"stroke-opacity: 100%;",
+			"circle",
+			"@/",
+			"mp4",
+			"require",
+			"import",
+			"-webk",
+			"        -webkit-animation: wireframe 1.5s linear forwards;\n",
+			"-webkit-animation",
+			"animation",
+			"ease-in-out",
+			"rotate",
+			"transfor",
+			"client-l",
+			"client-logos-",
+			"client-i",
+			"<hr class=\"show-for-small-only\">",
+			"skill-lis",
+			"skill-list",
 			"skill-li",
 			"font-we",
 			"client-i",
@@ -1200,33 +1186,7 @@
 			"line ",
 			"line",
 			"background",
-			"1759.",
-			"1599.",
-			"1279.",
-			"1600.",
-			"1439.",
-			"1760.",
-			"320.",
-			"159.",
-			"line",
-			"160.",
-			"640.",
-			"480.",
-			"642.",
-			"802.",
-			"480.",
-			"0.",
-			"0",
-			"319",
-			"318",
-			"479",
-			"479.115",
-			"stroke-da",
-			"\"1\"",
-			"stroke=\"#F1F2F2\"",
-			"1300",
-			".svg",
-			"\n"
+			"1759."
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1285,236 +1245,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21380,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 2356,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										18728,
-										18731
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								14077,
-								14077
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2341.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scss/app.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12903,
-						"regions":
-						{
-							"gutter_color_11030":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										11180,
-										11196
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_11048":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										11180,
-										11196
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_11082":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										11180,
-										11196
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1683":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#7b919d.png",
-								"regions":
-								[
-									[
-										1683,
-										1721
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1722":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/rgb(0,0,0).png",
-								"regions":
-								[
-									[
-										1722,
-										1766
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								11670,
-								11670
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9987.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "scss/shapes.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1427,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scss/utility.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 412,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								410,
-								272
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2892,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2752,
-								2753
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1100.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1573,6 +1305,10 @@
 		"selected_items":
 		[
 			[
+				"_s",
+				"scss/_settings.scss"
+			],
+			[
 				"shap",
 				"scss/shapes.scss"
 			],
@@ -1607,10 +1343,6 @@
 			[
 				"col",
 				"scss/colors.scss"
-			],
-			[
-				"_s",
-				"scss/_settings.scss"
 			],
 			[
 				"sttin",
@@ -2153,7 +1885,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":

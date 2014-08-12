@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZKWSK.COM</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link href="stylesheets/paper.css" rel="stylesheet" type="text/css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
@@ -57,7 +58,12 @@
         </svg>
       </div>
       <div class="header-container">
-        <video src="img/resume_video.mp4" class="header-video hidden show-for-medium-up"></video>
+        <video class="header-video hidden show-for-medium-up">
+          <source src="http://downloads.zkwsk.com/resume_video.mp4" type='video/mp4;codecs="avc1.4D403"' /> 
+          <!-- avc1.4D40xx where xx is the avc level. Do not know what the right level is -->
+          <source src="http://downloads.zkwsk.com/resume_video.webm" type='video/webm;codecs="vp8"' />
+          <source src="http://downloads.zkwsk.com/resume_video.ogv" type='video/ogg;codecs="theora"' />
+        </video>
         <img class="header-profile-pic hide" src="img/Zaki_rhombe.jpg" alt="Zaki Wasik, UX Designer & Web Developer">
         <div class="logo-container">
           <div class="img-container-2x">
