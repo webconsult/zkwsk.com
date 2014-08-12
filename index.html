@@ -10,8 +10,8 @@
   </head>
   <body>
     <header id="header" class="header">
-      <div class="bg-header background-image show-for-medium-up">
-        <svg id="bg_top" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      <div class="bg-header background-image">
+        <svg class="show-for-medium-up" id="bg_top" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
            viewBox="0 0 1920 640" enable-background="new 0 0 1920 640" xml:space="preserve">
           <line id="line-1" class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="480" y1="320" x2="800" y2="0"/>
           <line id="line-2" class="line" fill="none" stroke="#F1F2F2" stroke-width="1px" stroke-miterlimit="10" x1="480" y1="320" x2="800" y2="640"/>
@@ -34,93 +34,129 @@
           <line id="line-19" class="line fast" fill="none" stroke="#F1F2F2" stroke-width="1px" stroke-miterlimit="10" x1="1600" y1="0" x2="1600" y2="640"/>
           <line id="line-20" class="line slow" fill="none" stroke="#F1F2F2" stroke-width="1px" stroke-miterlimit="10" x1="1780" y1="0" x2="1780" y2="640"/>
         </svg>
+        <svg version="1.1" class="show-for-small" id="bg_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="648px" height="432px" viewBox="0 0 648 432" enable-background="new 0 0 648 432" xml:space="preserve">
+        <g id="Layer_2">
+          <polyline class="line fast" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="270,432 54,216 270,0  "/>
+          <polyline class="line fast" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" points="378,0 594,216 378,432   "/>
+          <line class="line slow" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="54" y1="0" x2="54" y2="432"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="108" y1="0" x2="108" y2="162"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="108" y1="270" x2="108" y2="432"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="162" y1="324" x2="162" y2="432"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="162" y1="0" x2="162" y2="108"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="216" y1="0" x2="216" y2="54"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="216" y1="378" x2="216" y2="432"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="432" y1="0" x2="432" y2="54"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="432" y1="378" x2="432" y2="432"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="486" y1="432" x2="486" y2="324"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="486" y1="0" x2="486" y2="108"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="540" y1="0" x2="540" y2="162"/>
+          <line class="line" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="540" y1="270" x2="540" y2="432"/>
+          <line class="line slow" fill="none" stroke="#F1F2F2" stroke-miterlimit="10" x1="594" y1="432" x2="594" y2="0"/>
+        </g>
+        </svg>
       </div>
       <div class="header-container">
-        <video src="img/resume_video.mp4" class="header-video" style="display:none"></video>
+        <video src="img/resume_video.mp4" class="header-video hidden show-for-medium-up"></video>
+        <img class="header-profile-pic hide" src="img/Zaki_rhombe.jpg" alt="Zaki Wasik, UX Designer & Web Developer">
         <div class="logo-container">
-          <div class="img-container-1x">
-            <!-- <img src="img/interactive_resume_small.svg" alt="Resume icon" class="resume-title" style="display:none"> -->
-          </div>
           <div class="img-container-2x">
-            <img src="img/zkwsk_logo.svg" alt="Logo" class="logo" style="display:none">
+            <img src="img/zkwsk_logo.svg" alt="Logo" class="logo">
           </div>
           <div class="img-container-1x">
-          <img src="img/Logo_subtitle.svg" alt="" class="logo-subtitle" style="display:none">
+          <img src="img/Logo_subtitle.svg" alt="" class="logo-subtitle">
           </div>
         </div>
         <div class="scroll-down" style="display:none;">
+          <a href="#introduction" data-smooth-scroll class="triangle-label block-center">
           <div class="triangle-down-2 cyan-dark"><div></div></div>
-          <a href="#introduction" data-smooth-scroll class="triangle-label block-center">Scroll<br>Down</a>
+          <!-- <a href="#introduction" data-smooth-scroll class="triangle-label block-center">Continue</a> -->
         </div>
+        </a>
       </div>
     </header>
     <section class="grey">
       <div class="grey-container">
         <div class="triangle-down-2 block-center red"><div></div></div>
-      </div>
-    </section>
-    <section class="cyan">
-      <div class="cyan-container">
         <div id="introduction" class="introduction medium-8 medium-offset-2 large-6 large-offset-3">
-        <div class="row">
-          <div class="medium-3 large-4 columns">
-            <img src="img/avatar_zaki_square.jpg" alt="Zaki Wasik, UX Designer and Front-end developer" class="avatar">
+          <div class="row">
+            <p>I am <b>Zaki Wasik</b>, a Copenhagen-based <b>UX Designer</b> and <b>Front-end developer</b>.</p>
+            <img src="img/avatar_zaki_square.jpg" alt="Zaki Wasik, UX Designer and Front-end developer" class="avatar show-for-small-only small-8 small-offset-2">
+            <p>My <b>passion is building great products</b> and my <b>motivation is learning</b>
+    about users and technologies. I continuously seek out challenges that enables me to hone my skills in the fields of development, design and business.</p>
           </div>
-          <div class="medium-9 large-8 columns">
-
-            <p>I am Zaki Wasik, a Copenhagen-based UX Designer and Front-end developer.</p>
-            <p>My passion is building great products and my motivation is learning 
-  about users and technologies.</p>
-            <p>I continuously seek out challenges that enables me to hone my skills in the fields of development, design and business.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="small-6 columns">
-            <div class="button">
-              <script type="text/javascript" language="javascript">
-              <!-- // Generated by http://rumkin.com/tools/mailto_encoder
-              ML="tmGo@b.euf>\" :za=/slI<crwhTkni";
-              MI="E?<IG79@;1?MC03=>?KM4H75F3LB86C0;:270<DL<J38FIEA?:";
-              OT="";
-              for(j=0;j<MI.length;j++){
-              OT+=ML.charAt(MI.charCodeAt(j)-48);
-              }document.write(OT);
-              // --></script>
-            </div>
-          </div>
-          <div class="small-6 columns">
-            <a href="#paper" class="button show-cv"><span class="toggle-text">Show</span> CV</a>
-          </div>
-        </div>
-
         </div>
       </div>
-
     </section>
     <section class="skills">
-      <div class="row">
-        <div class="medium-10 medium-offset-1">
-          <canvas id="venn" height="200" width="200">
-            Sorry, your browser doesn't support the &lt;canvas&gt; element.
-          </canvas>
+      <h2>Experience</h2>
+      <p class="medium-8 medium-offset-2 large-6 large-offset-3">
+        I thrive in the crossfire between management, design and development. <b>My core differentiator is my ability to cross boundaries</b> and work effectively together with experts in all of these fields. Learn how I can contribute to your field below...
+      </p>
+    <div class="row venn-diagram show-for-medium-up">
+      <div class="container">
+        <svg version="1.1" id="dev-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
 
-        </div>
-      </div>
-    </section>
-<!--     <section class="skills">
-    <div class="row venn-diagram">
-      <div class="circle circle-left">
-        <h3>Development</h3>
-      </div>
-      <div class="circle circle-middle">
-        <h3>UX Design</h3>
-      </div>
-      <div class="circle circle-right">
-        <h3>Management</h3>
+        <path class="circle" d="M400.286,795.571c-53.497,0-105.396-10.479-154.253-31.144c-47.189-19.96-89.57-48.533-125.963-84.927
+          s-64.967-78.773-84.926-125.963C14.478,504.682,4,452.783,4,399.286S14.478,293.89,35.143,245.033
+          c19.959-47.189,48.533-89.57,84.926-125.963s78.774-64.967,125.963-84.926C294.89,13.478,346.789,3,400.286,3
+          c53.498,0,105.396,10.478,154.253,31.143c47.189,19.959,89.569,48.533,125.963,84.926c36.395,36.393,64.967,78.774,84.927,125.963
+          c20.664,48.857,31.144,100.756,31.144,154.253c0,53.498-10.479,105.396-31.144,154.253c-19.96,47.188-48.532,89.569-84.927,125.963
+          c-36.394,36.394-78.773,64.967-125.963,84.927C505.682,785.093,453.783,795.571,400.286,795.571z"/>
+
+        <g>
+          <g>
+            <path class="wireframe" fill-rule="evenodd" clip-rule="evenodd" d="M266.252,251.037v268.78h268.773v-268.78H266.252z M438.283,509.053H277.016
+              V326.292h161.268V509.053z M524.274,509.053H449.02V326.292h75.255V509.053z M524.274,315.534H277.016v-53.753h247.259V315.534z"
+              />
+          </g>
+        </g>
+        </svg>
+        <svg id="ux-circle" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+        <g>
+          <g>
+            <path class="diamond" stroke="#000000" stroke-width="2" fill="none" d="M267.036,365.258l125.085,154.717l-51.503-154.717H267.036z M354.579,365.258L400.064,520.3l39.123-155.042H354.579z
+               M406.982,519.975l126.965-154.717h-79.652L406.982,519.975z M534.23,355.143l-37.076-61.525l-40.418,61.525H534.23z
+               M485.506,290.097h-74.144l33.726,63.624L485.506,290.097z M433.697,355.143l-33.738-61.525l-40.417,61.525H433.697z
+               M389.108,290.097h-74.128l33.712,63.624L389.108,290.097z M303.331,293.617l-37.079,61.525h70.804L303.331,293.617z"/>
+          </g>
+        </g>
+        <path class="circle" stroke="black" fill="none" stroke-width="1" d="M400.286,795.571c-53.497,0-105.396-10.479-154.253-31.143c-47.189-19.96-89.57-48.533-125.963-84.927
+          s-64.967-78.773-84.926-125.963C14.478,504.682,4,452.783,4,399.286c0-53.497,10.478-105.396,31.143-154.253
+          c19.959-47.189,48.533-89.57,84.926-125.963s78.774-64.967,125.963-84.926C294.89,13.478,346.789,3,400.286,3
+          c53.498,0,105.396,10.478,154.253,31.143c47.189,19.959,89.569,48.533,125.963,84.926s64.967,78.774,84.927,125.963
+          c20.664,48.857,31.143,100.756,31.143,154.253c0,53.498-10.479,105.396-31.143,154.253c-19.96,47.189-48.533,89.569-84.927,125.963
+          s-78.773,64.967-125.963,84.927C505.682,785.093,453.783,795.571,400.286,795.571z "/>
+        </svg>
+
+        <svg version="1.1" id="business-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="800px" height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+        <path class="circle" d="M400.286,795.571c-53.497,0-105.396-10.479-154.253-31.144c-47.189-19.96-89.57-48.533-125.963-84.927
+          s-64.967-78.773-84.926-125.963C14.478,504.682,4,452.783,4,399.286S14.478,293.89,35.143,245.033
+          c19.959-47.189,48.533-89.57,84.926-125.963s78.774-64.967,125.963-84.926C294.89,13.478,346.789,3,400.286,3
+          c53.498,0,105.396,10.478,154.253,31.143c47.189,19.959,89.569,48.533,125.963,84.926c36.395,36.393,64.967,78.774,84.927,125.963
+          c20.664,48.857,31.144,100.756,31.144,154.253c0,53.498-10.479,105.396-31.144,154.253c-19.96,47.188-48.532,89.569-84.927,125.963
+          c-36.394,36.394-78.773,64.967-125.963,84.927C505.682,785.093,453.783,795.571,400.286,795.571z"/>
+        <path class="abacus" fill-rule="evenodd" clip-rule="evenodd" d="M266.252,519.029V251.037h267.973v171.508v10.724v85.761H266.252z M512.805,272.47
+          H287.686v64.321h21.625c1.593-12.007,8.005-21.001,15.681-21.001c7.682,0,14.074,8.994,15.667,21.001h11.479
+          c1.544-12.124,7.984-21.221,15.728-21.221c7.716,0,14.177,9.097,15.714,21.221h75.759c1.537-12.124,7.991-21.221,15.707-21.221
+          c7.744,0,14.197,9.097,15.722,21.221h22.038V272.47z M512.805,347.508h-21.969c-1.442,12.357-7.964,21.66-15.791,21.66
+          c-7.826,0-14.307-9.302-15.762-21.66h-75.649c-1.435,12.357-7.95,21.66-15.77,21.66c-7.84,0-14.334-9.302-15.763-21.66h-11.341
+          c-1.38,12.46-7.902,21.886-15.77,21.886c-7.875,0-14.396-9.426-15.79-21.886h-21.516v75.037h85.671
+          c1.544-12.124,7.998-21.228,15.714-21.228c7.73,0,14.184,9.104,15.729,21.228h10.71c1.373-12.453,7.908-21.9,15.776-21.9
+          s14.39,9.447,15.776,21.9h12c1.497-12.248,7.992-21.434,15.764-21.434c7.785,0,14.279,9.186,15.762,21.434h22.217V347.508z
+           M512.805,433.269h-22.217c-1.482,12.22-7.977,21.447-15.762,21.447c-7.771,0-14.267-9.228-15.764-21.447H446.98
+          c-1.606,12.001-8.02,20.98-15.694,20.98c-7.689,0-14.073-8.979-15.694-20.98h-10.744c-1.441,12.33-7.95,21.667-15.776,21.667
+          c-7.819,0-14.328-9.337-15.756-21.667h-85.63v64.313h225.119V433.269z"/>
+        </svg>
       </div>
     </div>
     <div class="row skill-list">
-      <div class="medium-4 column">
+      <div class="small-12 medium-4 large-3 large-offset-1 column">
+        <h3>Development</h3>
+        <hr>
         <ul>
           <li>Javascript</li>
           <li>Ruby on Rails</li>
@@ -128,57 +164,104 @@
           <li>CSS3</li>
         </ul>
       </div>
-      <div class="medium-4 column">
+      <div class="small-12 medium-4 large-3 large-offset-1 column">
+        <h3>UX Design</h3>
+        <hr>
         <ul>
           <li>Design Thinking</li>
           <li>Usability Testing</li>
           <li>Personas</li>
-          <li>Design Patterns (iOS, Android, web)</li>
+          <li>Design Patterns (web, mobile)</li>
         </ul>
       </div>
-      <div class="medium-4 column end">
+      <div class="small-12 medium-4 large-3 large-offset-1 column end">
+        <h3>Management</h3>
+        <hr>
         <ul>
-          <li>Product Management</li>
           <li>Project Management</li>
-          <li>Strategy</li>
-          <li>Knowledge Management</li>
+          <li>Product Management</li>
+          <li>Agile/SCRUM</li>
+          <li>LEAN Startup</li>
         </ul>
       </div>
-    </div>
-    <div class="text-center small-12 block-center"><a href="action_show_all">Show All...</a></div>
-    </section> -->
-    <section id="main" class="main">
-      <div id="clients" class="clients">
-        <div class="medium-8 medium-offset-2 columns">
-          <h3>People I have worked with...</h3>
-          <div class="row-justified">
-            <img src="img/client-icons/airtame.png" alt="airtame" class="client-icon-airtame">
-            <img src="img/client-icons/drobe.png" alt="drobe" class="client-icon-drobe">
-            <img src="img/client-icons/cbs.png" alt="cbs" class="client-icon-cbs">
-          </div>
-          <div class="row-justified">
-            <img src="img/client-icons/nsa.png" alt="nsa" class="client-icon-nsa">
-            <img src="img/client-icons/tigerspring.png" alt="tigerspring" class="client-icon-tigerspring">
-            <img src="img/client-icons/suitable.png" alt="suitable" class="client-icon-suitable">
-            <img src="img/client-icons/cesa.png" alt="cesa" class="client-icon-cesa">
-          </div>
-          <div class="row-justified">
-            <img src="img/client-icons/dakom.png" alt="dakom" class="client-icon-dakom">
-            <img src="img/client-icons/formpipe.png" alt="formpipe" class="client-icon-formpipe">
-            <img src="img/client-icons/agillic.png" alt="agillic" class="client-icon-agillic">
-          </div>
+<!--     <div class="text-center medium-4 medium-offset-4 block-center"><a class="button" href="action_show_all">Show All...</a></div>
+ -->    </div>
+    </section>
+    <section id="clients" class="clients">
+      <h2>People I have worked with</h2>
+        <p class="medium-8 medium-offset-2 large-6 large-offset-3">
+          I have been working for <b>large companies</b> as well as <b>early-stage startups</b> and I see different opportunities in either. Below are a handful of the companies and organizations I have been working for in the past...
+        </p>
+      <div id="client-logos-desktop" class="clients-logos medium-8 medium-offset-2 show-for-medium-up">
+        <div class="row-justified">
+          <a href="http://airtame.com" alt="AIRTAME"><img src="img/client-icons/airtame.png" alt="airtame" class="client-icon-airtame"></a>
+          <a href="http://drobe.dk" alt="DROBE"><img src="img/client-icons/drobe.png" alt="drobe" class="client-icon-drobe"></a>
+          <a href="http://cbs.dk"><img src="img/client-icons/cbs.png" alt="cbs" class="client-icon-cbs"></a>
+        </div>
+        <div class="row-justified">
+          <a href="http://nordicstartupawards.com" alt="Nordic Startup Awards"><img src="img/client-icons/nsa.png" alt="nsa" class="client-icon-nsa"></a>
+          <a href="http://tigerspring.net" alt="Tigerspring Records"><img src="img/client-icons/tigerspring.png" alt="tigerspring" class="client-icon-tigerspring"></a>
+          <a href="http://suitableforbusiness.dk" alt"Suitable For Business"><img src="img/client-icons/suitable.png" alt="suitable" class="client-icon-suitable"></a>
+          <a href="http://centraleuropeanstartupawards.com"><img src="img/client-icons/cesa.png" alt="cesa" class="client-icon-cesa"></a>
+        </div>
+        <div class="row-justified">
+          <a href="http://danskkommunikation.dk" alt="Dansk Kommunikation"><img src="img/client-icons/dakom.png" alt="dakom" class="client-icon-dakom"></a>
+          <a href="http://formpipe.com/da/"><img src="img/client-icons/formpipe.png" alt="formpipe" class="client-icon-formpipe"></a>
+          <a href="http://agillic.com"><img src="img/client-icons/agillic.png" alt="agillic" class="client-icon-agillic"></a>
         </div>
       </div>
-      <div id="paper" class="paper-container off-canvas remove-from-flow">
-        <div id="shadow-container" class="shadow-container"></div>
-        <div class="paper-background main-container">
-          
+      <div id="client-logos-mobile" class="clients-logos clients-logos-mobile show-for-small-only">
+        <div class="row small-8">
+          <a href="http://airtame.com" alt="AIRTAME"><img src="img/client-icons/airtame.png" alt="airtame" class="client-icon-airtame"></a>
+        </div>
+        <div class="row small-12">
+          <a class="small-6 column" href="http://nordicstartupawards.com" alt="Nordic Startup Awards"><img src="img/client-icons/nsa.png" alt="nsa" class="client-icon-nsa"></a>
+          <a class="small-6 column end" href="http://centraleuropeanstartupawards.com"><img src="img/client-icons/cesa.png" alt="cesa" class="client-icon-cesa"></a>
+        </div>
+        <div class="row small-8">
+          <a href="http://cbs.dk"><img src="img/client-icons/cbs.png" alt="cbs" class="client-icon-cbs"></a>
+        </div>
+        <div class="row small-12">
+          <a class="small-6 column" href="http://drobe.dk" alt="DROBE"><img src="img/client-icons/drobe.png" alt="drobe" class="client-icon-drobe"></a>
+          <a class="small-6 column end" href="http://suitableforbusiness.dk" alt"Suitable For Business"><img src="img/client-icons/suitable.png" alt="suitable" class="client-icon-suitable"></a>
+        </div>
+        <div class="row small-8">
+          <a href="http://formpipe.com/da/"><img src="img/client-icons/formpipe.png" alt="formpipe" class="client-icon-formpipe"></a>
+        </div>
+        <div class="row small-12">
+          <a class="small-6 column" href="http://tigerspring.net" alt="Tigerspring Records"><img src="img/client-icons/tigerspring.png" alt="tigerspring" class="client-icon-tigerspring"></a>
+          <a class="small-6 column end" href="http://agillic.com"><img src="img/client-icons/agillic.png" alt="agillic" class="client-icon-agillic"></a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="get-in-touch" class="get-in-touch">
+    <h2>Get in touch!</h2>
+<!--     <p class="medium-8 medium-offset-2 large-6 large-offset-3">
+      I am always looking for opportunities to work with talented people building exciting products and services. Want to learn more about me? Download my CV, add me on linkedin - or if we've met personally - add me on Facebook, snoob around on my github and read my posts on stackexchange and finally don't forget to send me an email to tell me how we might help each other.
+    </p> -->
+    <p class="medium-8 medium-offset-2 large-6 large-offset-3">
+      I am always looking for opportunities to work with talented people building exciting products and services. Want to learn more about me? Download my CV and don't forget to send me an email to tell me how we might help each other.
+    </p>
+      <div class="row">
+        <div class="small-12 medium-4 medium-offset-2 columns">
+          <div class="button">
+            <script type="text/javascript" language="javascript">
+            <!-- // Generated by http://rumkin.com/tools/mailto_encoder
+            ML="tmGo@b.euf>\" :za=/slI<crwhTkni";
+            MI="E?<IG79@;1?MC03=>?KM4H75F3LB86C0;:270<DL<J38FIEA?:";
+            OT="";
+            for(j=0;j<MI.length;j++){
+            OT+=ML.charAt(MI.charCodeAt(j)-48);
+            }document.write(OT);
+            // --></script>
+          </div>
+        </div>
+        <div class="small-12 medium-4 columns end">
+          <a href="http://downloads.zkwsk.com/Resume_2014.pdf" class="button show-cv">Download CV</a>
         </div>
       </div>
     </section>
-    <footer>
-      <br>
-    </footer>
 
 
 
@@ -189,11 +272,26 @@
 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-waypoints/waypoints.min.js"></script> 
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script type="text/javascript" src="js/jquery.lazylinepainter-1.4.1.js"></script>
-    <script type="text/javascript" src="js/raphael-min.js"></script> 
     <script src="js/folded-paper.js"></script>
     <script src="js/app.js"></script>
-    <script type="text/javascript" src="js/venn.js"></script> 
+    <script>
+
+    $(document).ready(function() {
+      $('.venn-diagram').waypoint(function(direction){
+        console.log('add classes: animate-circle, animate-business, animate-development, animate-ux');
+        $('.venn-diagram .container').addClass('animate-circle').addClass('animate-ux').addClass('animate-business').addClass('animate-development');
+      }, { offset: '80%' });
+      $('.venn-diagram').waypoint(function(direction){
+        $('.venn-diagram .container').addClass('animate-position');
+        $('.skill-list').animate({
+          opacity: 1,
+          top: 0
+        },500);
+      }, { offset: '30%' });
+    });
+
+    </script>
   </body>
 </html>

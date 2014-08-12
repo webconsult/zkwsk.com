@@ -1074,6 +1074,134 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/jquery-scrollspy\/examples\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/examples\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/jquery-scrollspy\/examples\/colors.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/examples\/colors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/jquery-scrollspy\/examples\/fixednav.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/examples\/fixednav.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/jquery-scrollspy\/jquery-scrollspy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/jquery-scrollspy.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/min\/jquery-scrollspy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery-scrollspy\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/jquery-waypoints\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/jquery-waypoints\/shortcuts\/infinite-scroll\/waypoints-infinite.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/infinite-scroll\/waypoints-infinite.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/infinite-scroll\/min\/waypoints-infinite-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery-waypoints\/shortcuts\/infinite-scroll\/waypoints-infinite.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/infinite-scroll\/waypoints-infinite.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/infinite-scroll\/min\/waypoints-infinite.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery-waypoints\/shortcuts\/sticky-elements\/waypoints-sticky.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/sticky-elements\/waypoints-sticky.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/sticky-elements\/min\/waypoints-sticky-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery-waypoints\/shortcuts\/sticky-elements\/waypoints-sticky.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/sticky-elements\/waypoints-sticky.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/shortcuts\/sticky-elements\/min\/waypoints-sticky.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery-waypoints\/waypoints.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/waypoints.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/min\/waypoints-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery-waypoints\/waypoints.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/waypoints.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-waypoints\/min\/waypoints.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/jquery.cookie\/jquery.cookie.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3866,6 +3994,17 @@
 		"initialSize": 49173,
 		"inputAbbreviatedPath": "\/img\/paper_background.jpg",
 		"outputAbbreviatedPath": "\/img\/paper_background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Zaki_rhombe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124091,
+		"inputAbbreviatedPath": "\/img\/Zaki_rhombe.jpg",
+		"outputAbbreviatedPath": "\/img\/Zaki_rhombe.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
