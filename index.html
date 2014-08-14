@@ -6,7 +6,6 @@
     <title>ZKWSK.COM</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="stylesheets/app.css" />
-    <link href="stylesheets/paper.css" rel="stylesheet" type="text/css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
@@ -280,23 +279,10 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/jquery-waypoints/waypoints.min.js"></script> 
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/folded-paper.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/min/app-min.js"></script>
     <script>
 
-    $(document).ready(function() {
-      $('.venn-diagram').waypoint(function(direction){
-        console.log('add classes: animate-circle, animate-business, animate-development, animate-ux');
-        $('.venn-diagram .container').addClass('animate-circle').addClass('animate-ux').addClass('animate-business').addClass('animate-development');
-      }, { offset: '80%' });
-      $('.venn-diagram').waypoint(function(direction){
-        $('.venn-diagram .container').addClass('animate-position');
-        $('.skill-list').animate({
-          opacity: 1,
-          top: 0
-        },500);
-      }, { offset: '30%' });
-    });
+
 
     </script>
   </body>
