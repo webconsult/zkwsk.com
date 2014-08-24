@@ -2,3 +2,6 @@
 /.sass-cache/*
 *.DS_Store
 /stylesheets/*
+*.mp4
+*.ogv
+*.webm

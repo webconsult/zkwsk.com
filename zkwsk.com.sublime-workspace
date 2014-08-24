@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"stroke",
+				"stroke-dashoffset"
+			],
+			[
+				"stroke-d",
+				"stroke-dashoffset"
+			],
+			[
+				"elem",
+				"element_id"
+			],
+			[
+				"swap",
+				"swapItems"
+			],
+			[
+				"ele",
+				"element_id"
+			],
+			[
+				"expand",
+				"expand_square"
+			],
+			[
 				"ea",
 				"ease-in-out"
 			],
@@ -46,10 +70,6 @@
 			[
 				"transition",
 				"transition-duration"
-			],
-			[
-				"stroke",
-				"stroke-dasharray"
 			],
 			[
 				"webkit-",
@@ -494,36 +514,40 @@
 			[
 				"narrow",
 				"narrowFooter"
-			],
-			[
-				"narro",
-				"narrowFooter"
-			],
-			[
-				"scroll",
-				"scrollTop"
-			],
-			[
-				"fad",
-				"fadeIn"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"marg",
-				"margin"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 16648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 4139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 28350,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 347.0,
 		"selected_items":
 		[
 			[
@@ -913,11 +937,18 @@
 	},
 	"file_history":
 	[
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/timeline.svg",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/timeline_full.svg",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/log.sublime-snippet",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/onClick.sublime-snippet",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zaki/Dropbox/Development environments/backpack/backpack/Gemfile",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/app.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/utility.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/shapes.scss",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/config.rb",
 		"/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/es5-strictmode.js",
@@ -928,7 +959,6 @@
 		"/Users/zaki/Downloads/jquery-scrollspy-master/examples/colors.html",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/8ed21693e22a044a02df250f568d2199f08dd844/_alternating-rows-and-columns.scssc",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/AvenirNextLTPro-CnIt.otf",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/css-regions.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/venn.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/bg_cyan_dark.svg",
@@ -986,7 +1016,6 @@
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/perks.yml",
 		"/Users/zaki/Desktop/contributions-4-short.csv",
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/pry.sublime-snippet",
-		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/db/migrate/20140717115011_add_guessed_to_perks.rb",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/assets/stylesheets/scaffolds.css.scss",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/models/perk.rb",
@@ -1035,12 +1064,7 @@
 		"/Users/zaki/Dropbox/Development environments/Startupawards_dev/puphpet/files/dot/ssh/insecure_private_key",
 		"/Users/zaki/Dropbox/Development environments/Startupawards-dev/manifest.pp",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/bin/rails",
-		"/Users/zaki/Desktop/backers_dummy_data.csv",
-		"/Users/zaki/Dropbox/Git repositories/AIRTAME-investor-pitch/index.html",
-		"/Users/zaki/Desktop/index.html",
-		"/Users/zaki/.zshrc",
-		"/Users/zaki/Library/Caches/Cleanup At Startup/Transmit/553EE4F5-B81D-4422-A25C-93EF4A919C1B/page-home.php",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/tmp/cache/assets/development/sprockets/c2afda548b6ce65159b4d12c9d817aa6"
+		"/Users/zaki/Desktop/backers_dummy_data.csv"
 	],
 	"find":
 	{
@@ -1059,6 +1083,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"select",
+			"stroke",
+			"d7d9d9",
+			"AAC8D9",
+			"#AAC8D9",
+			"circle",
+			"#F1F2F2",
+			"stroke-width=\"2\"",
+			"figure",
+			"timelin",
+			"video",
+			"button",
+			"#card",
+			"time",
 			"font",
 			"open-s",
 			"video",
@@ -1172,21 +1210,7 @@
 			"window",
 			"resize",
 			"bottom: 16px",
-			"display: no",
-			"display:no",
-			"ul",
-			"top",
-			".grey",
-			"skill",
-			"M",
-			"560",
-			"venn",
-			"dasharray",
-			"keyfram",
-			"line ",
-			"line",
-			"background",
-			"1759."
+			"display: no"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1245,8 +1269,170 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16648,
+						"regions":
+						{
+							"gutter_color_11204":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										11204,
+										11220
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1683":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7b919d.png",
+								"regions":
+								[
+									[
+										1683,
+										1721
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1722":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.35).png",
+								"regions":
+								[
+									[
+										1722,
+										1766
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								14700,
+								14700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12018.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3153,
+								3153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1173.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28350,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										19115,
+										19118
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								23823,
+								23823
+							],
+							[
+								23836,
+								23836
+							],
+							[
+								23855,
+								23855
+							],
+							[
+								23872,
+								23872
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1267,6 +1453,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -1277,6 +1469,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -1305,6 +1498,26 @@
 		"selected_items":
 		[
 			[
+				"colo",
+				"scss/colors.scss"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"app",
+				"scss/app.scss"
+			],
+			[
+				"",
+				"js/app.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
 				"_s",
 				"scss/_settings.scss"
 			],
@@ -1319,22 +1532,6 @@
 			[
 				"app.",
 				"js/app.js"
-			],
-			[
-				"inde",
-				"index.html"
-			],
-			[
-				"colo",
-				"scss/colors.scss"
-			],
-			[
-				"app",
-				"scss/app.scss"
-			],
-			[
-				"ind",
-				"index.html"
 			],
 			[
 				"co",
@@ -1395,10 +1592,6 @@
 			[
 				"applic",
 				"app/controllers/application_controller.rb"
-			],
-			[
-				"",
-				"app/views/stagings/index.html.erb"
 			],
 			[
 				"appl",
@@ -1885,7 +2078,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":

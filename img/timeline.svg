@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1356px"
+	 height="76.5px" viewBox="297.5 80.25 1356 76.5" enable-background="new 297.5 80.25 1356 76.5" xml:space="preserve">
+<g id="timeline-inactive">
+	<text transform="matrix(1 0 0 1 301.5039 149)" fill="#FFC0C3" font-family="'OpenSans'" font-size="24">Home</text>
+	<text transform="matrix(1 0 0 1 688.9766 149)" fill="#FFC0C3" font-family="'OpenSans'" font-size="24">Experience</text>
+	<text transform="matrix(1 0 0 1 1120.6875 149)" fill="#FFC0C3" font-family="'OpenSans'" font-size="24">Projects</text>
+	<text transform="matrix(1 0 0 1 1509.5195 149)" fill="#FFC0C3" font-family="'OpenSans'" font-size="24">Get In Touch</text>
+	<circle id="fill-get-in-touch" fill="#FFC0C3" cx="1580.5" cy="99.5" r="10"/>
+	<path id="stroke-get-in-touch" fill="none" stroke="#FFC0C3" stroke-width="3" stroke-miterlimit="10" d="M1565.5,99.667
+		c0.264,8.054,6.936,14.833,15.053,14.833c8.283,0,14.973-6.716,14.973-15s-6.729-15-15.012-15c-8.285,0-15.014,6.716-15.014,15
+		H1180"/>
+	<circle id="fill-projects" fill="#FFC0C3" cx="1165.5" cy="99.5" r="10"/>
+	<path id="stroke-projects" fill="none" stroke="#FFC0C3" stroke-width="3" stroke-miterlimit="10" d="M1150.5,99.667
+		c0.264,8.054,6.936,14.833,15.053,14.833c8.283,0,14.974-6.716,14.974-15s-6.729-15-15.013-15c-8.285,0-15.014,6.716-15.014,15H765
+		"/>
+	<circle id="fill-experience" fill="#FFC0C3" cx="750.5" cy="99.5" r="10"/>
+	<path id="stroke-experience" fill="none" stroke="#FFC0C3" stroke-width="3" stroke-miterlimit="10" d="M735.5,99.667
+		c0.264,8.054,6.936,14.833,15.052,14.833c8.284,0,14.975-6.716,14.975-15s-6.729-15-15.014-15s-15.013,6.716-15.013,15H350"/>
+	<circle id="fill-home" fill="#FFC0C3" cx="335.5" cy="99.5" r="10"/>
+	<circle id="stroke-home" fill="none" stroke="#FFC0C3" stroke-width="3" stroke-miterlimit="10" cx="335.5" cy="99.5" r="15"/>
+</g>
+<g id="timeline-active">
+	<text transform="matrix(1 0 0 1 301.5039 149)" fill="#F1F2F2" font-family="'OpenSans'" font-size="24">Home</text>
+	<text transform="matrix(1 0 0 1 688.9766 149)" fill="#F1F2F2" font-family="'OpenSans'" font-size="24">Experience</text>
+	<text transform="matrix(1 0 0 1 1120.6875 149)" fill="#F1F2F2" font-family="'OpenSans'" font-size="24">Projects</text>
+	<text transform="matrix(1 0 0 1 1509.5195 149)" fill="#F1F2F2" font-family="'OpenSans'" font-size="24">Get In Touch</text>
+	<circle id="fill-get-in-touch_1_" fill="#F1F2F2" stroke="#F1F2F2" stroke-miterlimit="10" cx="1580.5" cy="99.5" r="10"/>
+	<path id="stroke-get-in-touch_1_" fill="none" stroke="#F1F2F2" stroke-width="3" stroke-miterlimit="10" d="M1565.5,99.667
+		c0.264,8.054,6.936,14.833,15.053,14.833c8.283,0,14.973-6.716,14.973-15s-6.729-15-15.012-15c-8.285,0-15.014,6.716-15.014,15
+		H1180"/>
+	<circle id="fill-projects_1_" fill="#F1F2F2" cx="1165.5" cy="99.5" r="10"/>
+	<path id="stroke-projects_1_" fill="none" stroke="#F1F2F2" stroke-width="3" stroke-miterlimit="10" d="M1150.5,99.667
+		c0.264,8.054,6.936,14.833,15.053,14.833c8.283,0,14.974-6.716,14.974-15s-6.729-15-15.013-15c-8.285,0-15.014,6.716-15.014,15H765
+		"/>
+	<circle id="fill-experience_1_" fill="#F1F2F2" cx="750.5" cy="99.5" r="10"/>
+	<path id="stroke-experience_1_" fill="none" stroke="#F1F2F2" stroke-width="3" stroke-miterlimit="10" d="M735.5,99.667
+		c0.264,8.054,6.936,14.833,15.052,14.833c8.284,0,14.975-6.716,14.975-15s-6.729-15-15.014-15s-15.013,6.716-15.013,15H350"/>
+	<circle id="fill-home_1_" fill="#F1F2F2" cx="335.5" cy="99.5" r="10"/>
+	<circle id="stroke-home_1_" fill="none" stroke="#F1F2F2" stroke-width="3" stroke-miterlimit="10" cx="335.5" cy="99.5" r="15"/>
+</g>
+</svg>

@@ -1,9 +1,33 @@
+//Private properties goes here
+var relocate_squares = function($el) {
+  //move element up one step
+  if ($el.not(':first-child')) {
+    $el.prev().before($el);
+  }
+};
+
+var expand_square = function(id) {
+  var squares = $('[class*="project-square-2"]');
+  var expand = squares.splice(id, 1);
+  $($(expand)).addClass('expanded');
+  $(squares).addClass('minimized');
+};
+
+var clear_nav = function() {
+  $('.nav-timeline').removeClass('dot-home').removeClass('dot-experience').removeClass('dot-projects').removeClass('dot-get-in-touch');
+};
+
+//Method to swap array items
+Array.prototype.swapItems = function(a, b){
+    this[a] = this.splice(b, 1, this[a])[0];
+    return this;
+};
+
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
 $(document).ready(function(){
-
 
   //Fades in the logo
   setTimeout(function(){
@@ -96,6 +120,52 @@ $(document).ready(function(){
     }
   });
 
+  //Activates and deactivates the navigation
+  $('section.grey').waypoint(function(direction){
+    if (direction === 'down') {
+      $('#card').removeClass('flipped');
+      setTimeout(function(){
+        $('.nav-timeline').addClass('active-home').addClass('dot-home');
+      }, 1000);
+    } else if (direction === 'up') {
+      $('#card').addClass('flipped');
+    }
+  });
+
+  $('#skills').waypoint(function(direction){
+    if (direction === 'down') {
+      clear_nav();
+      $('.nav-timeline').addClass('active-experience').addClass('dot-experience');
+    } else if (direction === 'up') {
+
+      clear_nav();
+      $('.nav-timeline').removeClass('active-experience');
+      $('.nav-timeline').addClass('dot-home');
+    }
+  });
+
+  $('#projects').waypoint(function(direction){
+    if (direction === 'down') {
+      clear_nav();
+      $('.nav-timeline').addClass('active-projects').addClass('dot-projects');
+    } else if (direction === 'up') {
+      clear_nav();
+      $('.nav-timeline').removeClass('active-projects');
+      $('.nav-timeline').addClass('dot-experience');
+    }
+  });
+
+  $('#get-in-touch').waypoint(function(direction){
+    if (direction === 'down') {
+      clear_nav();
+      $('.nav-timeline').addClass('active-get-in-touch').addClass('dot-get-in-touch');
+    } else if (direction === 'up') {
+      clear_nav();
+      $('.nav-timeline').removeClass('active-get-in-touch');
+      $('.nav-timeline').addClass('dot-projects');
+    }
+  });
+
 
 
   //Animation of VENN diagram
@@ -111,5 +181,5 @@ $(document).ready(function(){
   }, { offset: '30%' });
 
 
-}); //document ready
 
+}); //document ready
