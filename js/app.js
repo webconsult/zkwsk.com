@@ -1,4 +1,8 @@
+var ZKWSK = (function(){
+
 //Private properties goes here
+
+//Deprecated - I am not reordering squares at the moment
 var relocate_squares = function($el) {
   //move element up one step
   if ($el.not(':first-child')) {
@@ -6,12 +10,19 @@ var relocate_squares = function($el) {
   }
 };
 
+//Expands a project square, id is the square number from 0-3
 var expand_square = function(id) {
   var squares = $('[class*="project-square-2"]');
   var expand = squares.splice(id, 1);
   $($(expand)).addClass('expanded');
   $(squares).addClass('minimized');
 };
+
+//Minimizes any previously expanded square and reveals the remaning squares
+var minimize_square = function() {
+  $('[class*="project-square-2"].expanded').removeClass('expanded');
+  $('[class*="project-square-2"]').removeClass('minimized');
+}
 
 var clear_nav = function() {
   $('.nav-timeline').removeClass('dot-home').removeClass('dot-experience').removeClass('dot-projects').removeClass('dot-get-in-touch');
@@ -180,6 +191,21 @@ $(document).ready(function(){
     },500);
   }, { offset: '30%' });
 
-
+  $('section.projects [href="#action_close"]').click(function(){
+      minimize_square();
+    }
+  );
 
 }); //document ready
+
+
+//Public properties goes here
+return {
+  expand_square: function(id) { expand_square(id); },
+  minimize_square: function(id) { minimize_square(); },
+  relocate_squares: function($el) { relocate_squares($el); }
+};
+})();
+
+
+

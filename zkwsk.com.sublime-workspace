@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"clear",
+				"clear_nav"
+			],
+			[
+				"clea",
+				"clear_nav"
+			],
+			[
+				"dot-",
+				"dot-home"
+			],
+			[
 				"stroke",
 				"stroke-dashoffset"
 			],
@@ -502,18 +514,6 @@
 			[
 				"login-",
 				"login-row"
-			],
-			[
-				"ca",
-				"call"
-			],
-			[
-				"ad",
-				"adjustFooterWith"
-			],
-			[
-				"narrow",
-				"narrowFooter"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "scss/app.scss",
 			"settings":
 			{
-				"buffer_size": 16648,
+				"buffer_size": 18676,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 4139,
+				"buffer_size": 5526,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 28350,
+				"buffer_size": 28754,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/zaki/Dropbox/Development environments/drupal/puphpet/config.yaml",
+			"settings":
+			{
+				"buffer_size": 6012,
 				"line_ending": "Unix"
 			}
 		}
@@ -547,9 +555,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 87.0,
 		"selected_items":
 		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"trail",
 				"Trailing Spaces: Delete Trailing Spaces"
@@ -937,6 +949,7 @@
 	},
 	"file_history":
 	[
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.gitignore",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/timeline.svg",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/timeline_full.svg",
@@ -971,7 +984,6 @@
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/canvas-todataurl-type.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/icons/style.css",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/css-objectfit.js",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.gitignore",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/getusermedia.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/paper.css",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/icons/selection.json",
@@ -1083,6 +1095,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"minimized",
+			"jake foley",
+			"2222",
+			"22",
+			"2222",
+			"uvp",
+			"ssh",
+			"module",
+			"port",
+			"grey-c",
+			"1.5s",
+			"fill-ci",
+			"fill-cr",
+			"projects",
+			"home",
+			"transi",
+			"projects",
+			"skills",
+			"way",
+			"experience",
+			"active-ho",
+			"animation",
 			"select",
 			"stroke",
 			"d7d9d9",
@@ -1188,29 +1222,7 @@
 			"people",
 			"get in",
 			"get in to",
-			"get in tou",
-			"skills",
-			"I am za",
-			"skills",
-			"my core",
-			"expert",
-			"skills",
-			"I am",
-			"bg_top",
-			"[href=\"#paper\"",
-			"[href=\"#pap",
-			"skill-li",
-			"button",
-			"design patt",
-			"arge-2",
-			"skill",
-			"skill-li",
-			"ul",
-			"animate",
-			"window",
-			"resize",
-			"bottom: 16px",
-			"display: no"
+			"get in tou"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1269,7 +1281,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1278,7 +1290,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16648,
+						"buffer_size": 18676,
 						"regions":
 						{
 							"gutter_color_11204":
@@ -1324,8 +1336,8 @@
 						"selection":
 						[
 							[
-								14700,
-								14700
+								3992,
+								3992
 							]
 						],
 						"settings":
@@ -1335,10 +1347,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12018.0,
+						"translation.y": 3856.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1347,15 +1359,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4139,
+						"buffer_size": 5526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3153,
-								3153
+								949,
+								949
 							]
 						],
 						"settings":
@@ -1365,25 +1377,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1173.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28350,
+						"buffer_size": 28754,
 						"regions":
 						{
 							"TagLint":
@@ -1393,8 +1399,8 @@
 								"regions":
 								[
 									[
-										19115,
-										19118
+										22064,
+										22067
 									]
 								],
 								"scope": "variable.parameter"
@@ -1403,20 +1409,8 @@
 						"selection":
 						[
 							[
-								23823,
-								23823
-							],
-							[
-								23836,
-								23836
-							],
-							[
-								23855,
-								23855
-							],
-							[
-								23872,
-								23872
+								7049,
+								7039
 							]
 						],
 						"settings":
@@ -1427,10 +1421,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7078.0,
+						"translation.y": 908.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/zaki/Dropbox/Development environments/drupal/puphpet/config.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1453,12 +1477,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -1469,7 +1487,6 @@
 		"rows":
 		[
 			0.0,
-			0.5,
 			1.0
 		]
 	},

@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5 {
 
 button, .button {
   background-color: transparent;
-  border: 2px solid $white;
+  border: 3px solid $white;
   border-radius: 2em;
   width: 100%;
 
@@ -588,13 +588,41 @@ section.projects {
   [class*="project-square-2"] {
     height: 0;
     padding: 0;
+    opacity: 1;
     padding-bottom: 50%;
-    @include transition-property(width, padding);
+    @include transition-property(width, padding, opacity, background-color);
     @include transition-duration(1s);
     @include transition-timing-function(ease-in);
 
     .container {
+      position: relative;
       padding: 5%;
+    }
+    .close {
+      position: absolute;
+      right: 1em;
+      top: 1em;
+      opacity: 0;
+      z-index: 100;
+      @include transition-property(opacity);
+      @include transition-delay(1.5s);
+      @include transition-duration(0.5s);
+    }
+    &.expanded .close {
+      opacity: 1;
+    }
+
+    button.expand {
+      position: absolute;
+      width: 50%;
+      left: 25%;
+      bottom: 1em;
+      opacity: 1;
+      @include transition-property(opacity);
+      @include transition-duration(0.5s);
+    }
+    &.expanded button.expand {
+      opacity: 0;
     }
 
     p {
@@ -603,13 +631,15 @@ section.projects {
     }
 
     &.minimized {
-      width: 33.3333333%;
+      width: 0%;
+      opacity: 0;
       padding-bottom: 33.3333333%;
     }
   }
   .expanded {
     width: 100%;
     padding-bottom: 100%;
+    background-color: $dark-grey !important;
 
   }
   
