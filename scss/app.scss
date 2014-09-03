@@ -83,7 +83,6 @@ p {
   color: $white;
   text-align: justify;
   font-weight: 100;
-  margin-top: 1.5em;
 }
 li {
   font-weight: 100;
@@ -93,7 +92,7 @@ h1, h2, h3, h4, h5 {
   color: $white;
   font-weight: 200;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 1.5em;
   padding-bottom: 1em;
   margin: 0;
 }
@@ -188,6 +187,36 @@ button, .button {
   }
 
   .logo-container {
+
+    .logo {
+      @include transition-property(all);
+      @include transition-duration(1s);
+    }
+
+    &.profile-pic-shown {
+
+
+
+      .logo {
+        position: absolute;
+        width: 50%;
+        left: -50%;
+        padding-top: 25%;
+        
+        path {
+          fill: $dark-grey;
+        }
+      }
+      .logo-subtitle {
+        position: absolute;
+        left: 100%;
+        width: 50%;
+        margin-top: -70%;
+        text {
+          fill: $dark-grey;
+        }
+      }
+    }
 
     &.opaque {
       opacity: 0.7;
@@ -291,7 +320,7 @@ section.skills {
   background-color: $white;
   // height: 0;
   // padding-bottom: 58.333333333%;
-  padding-bottom: 4em;
+  padding-bottom: 8em;
 
   .button {
     background-color: $cyan-bright;
@@ -308,6 +337,12 @@ section.skills {
     }
   }
 
+  .all-skills {
+    li {
+      font-size: 0.8em;
+    }
+  }
+
   .skill-list {
     position: relative;
     column {
@@ -318,6 +353,7 @@ section.skills {
       width: 90%;
     }
     h3 {
+      padding-top: 0;
       text-align: left;
       padding-bottom: 0;
     }
@@ -459,10 +495,10 @@ section.skills {
 }
 section.get-in-touch {
   background-color: $dark-grey;
-
+  margin-bottom: 1em;
   .row {
     padding-top: 2.5em;
-    padding-bottom: 2.5em;
+    padding-bottom: 8em;
   }
 }
 
@@ -561,8 +597,8 @@ section.clients {
     //Tweak white color for slightly better contrast
     color: #fff;
   }
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 1em;
   background-color: $cyan-dark;
 
   .clients-logos-mobile {
@@ -584,7 +620,15 @@ section.clients {
     }
   }
 }
+
 section.projects {
+
+  p.introduction {
+    padding-bottom: 3em;
+  }
+
+  padding-bottom: 100%;
+
   [class*="project-square-2"] {
     height: 0;
     padding: 0;
@@ -594,10 +638,76 @@ section.projects {
     @include transition-duration(1s);
     @include transition-timing-function(ease-in);
 
-    .container {
-      position: relative;
-      padding: 5%;
+    .project-description {
+      display: none;
+      opacity: 0;
+      position: absolute;
+      @include transition-property(opacity);
+      @include transition-delay(1s);
+      @include transition-duration(1s);
     }
+
+    .logo {
+      width: 100%;
+      text-align: center;
+      &.airtame {
+        position: relative;
+        top: 1em;
+      }
+      &.fourpio {
+        position: relative;
+        top: 0.5em;
+      }
+      &.tigerspring {
+        position: relative;
+        width: 50%;
+        left: 25%;
+      }
+      &.startupawards {
+        position: relative;
+        top: 0.5em;
+        // float: left;
+        img {
+          width: 40%;
+        }
+        a:first-child {
+          margin-right: 10%;
+        }
+      }
+    }
+
+    .container {
+
+      position: relative;
+      height: 0;
+
+      $inner-square-width-sm: 91.66666666667%;
+      $inner-square-width-md: 83.33333333333%;
+      $inner-square-width-lg: 66.66666666667%;
+
+      $inner-square-padding-sm: (100% - $inner-square-width-sm) / 2;
+      $inner-square-padding-md: (100% - $inner-square-width-md) / 2;
+      $inner-square-padding-lg: (100% - $inner-square-width-lg) / 2;
+
+      margin-top: $inner-square-padding-sm;
+      left: $inner-square-padding-sm;
+      width: $inner-square-width-sm;
+      padding-bottom: $inner-square-width-sm;
+
+      @media #{$medium-up} {
+        margin-top: $inner-square-padding-md;
+        left: $inner-square-padding-md;
+        width: $inner-square-width-md;
+        padding-bottom: $inner-square-width-md;
+      }
+      @media #{$large-up} {
+        margin-top: $inner-square-padding-lg;
+        left: $inner-square-padding-lg;
+        width: $inner-square-width-lg;
+        padding-bottom: $inner-square-width-lg;
+      }
+    }
+
     .close {
       position: absolute;
       right: 1em;
@@ -608,41 +718,119 @@ section.projects {
       @include transition-delay(1.5s);
       @include transition-duration(0.5s);
     }
-    &.expanded .close {
-      opacity: 1;
-    }
 
     button.expand {
+      font-size: 1em;
+      padding-top:1em;
+      padding-bottom:1em;
       position: absolute;
-      width: 50%;
-      left: 25%;
-      bottom: 1em;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      margin-bottom: 0;
       opacity: 1;
       @include transition-property(opacity);
       @include transition-duration(0.5s);
     }
-    &.expanded button.expand {
-      opacity: 0;
-    }
 
-    p {
-      margin: 0;
-      text-align: justify;
+    &.expanded {
+
+      color: white;
+
+      width: 100%;
+      padding-bottom: 100%;
+      background-color: $dark-grey !important;
+
+      .logo.tigerspring {
+        left: 0;
+      }
+      .close {
+        opacity: 1;
+      }
+
+      .project-description {
+        opacity: 1;
+        display: block;
+
+        .columns, column {
+          padding-left: 0;
+          padding-right: 1.875rem;
+          &.end {
+            padding-right: 0;
+          }
+        }
+
+        p {
+          margin-top: 0;
+          margin-bottom: 0.8em;
+          color: white;
+          font-size: 0.8em;
+          line-height: 1.5;
+        }
+        a {
+          color: $cyan-bright;
+          &:hover {
+            color: $red;
+          }
+        }
+
+
+        .references {
+          p {
+            margin-bottom: 0.5em;
+          }
+          ul {
+            margin: 0;
+          }
+          li {
+            font-size: 0.8em;
+            list-style-type: none;
+          }
+        }
+
+      }
+
+      h3.role {
+        margin-top: 1em;
+        text-align: left;
+        padding-bottom: 0.5em;
+      }
+      img.img-float-right {
+        float: right;
+        margin-left: 1em;
+      }
+      .keywords-container {
+        display: block;
+        bottom: 0;
+      }
+      button.expand {
+        opacity: 0;
+        display:none;
+      }
+
+      .logo {
+        width: 33.33333%;
+        &.startupawards {
+          margin-left: -2%;
+          width: 45%;
+        }
+        &.airtame {
+
+        }
+      }
+
     }
 
     &.minimized {
       width: 0%;
-      opacity: 0;
       padding-bottom: 33.3333333%;
+      .container {
+        display: none;
+      }
     }
   }
-  .expanded {
-    width: 100%;
-    padding-bottom: 100%;
-    background-color: $dark-grey !important;
 
-  }
-  
+
   a {
     color: $white;
   }
@@ -659,30 +847,80 @@ section.projects {
   }
   ul.keywords {
     margin: 0;
+    height: 3.3em;
+    overflow: hidden;
+
     li {
       display: inline;
-      color: $white;
-      font-style: italic;
-      font-size: 0.8em;
+      font-weight: 300;
+      font-size: 1em;
+      line-height: 2;
+
+      @media #{$medium-up} {
+        font-size: 0.6em;
+      }
+
+      @media #{$large-up} {
+        //font-size: 1em;
+      }
+
     }
-    li:after {
-      content: ",";
+    a {
+      padding: 0.2em 0.7em 0.3em 0.7em;
+      border-radius: 1em;
+      background-color: $white;
     }
-    li:last-child:after {
-      content: ".";
+    a[href="#"] {
+      background-color: darken($white, 10%);
+    }
+
+  }
+  .keywords-container {
+    display: none;
+    position: absolute;
+    bottom: 4.5em;
+  }
+  h3.role {
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    &.airtame {
+      margin-top: 3em;
+    }
+    &.startupawards {
+      margin-top: 2.1em;
+    }
+    &.fourpio {
+
+    }
+    &.tigerspring {
+      margin-top: 2em;
     }
   }
   .project-square-2-1 {
     background-color: $cyan-dark;
+    a, li {
+      color: $cyan-dark;
+    }
   }
   .project-square-2-2 {
     background-color: darken($cyan-dark,10%);
+    a, li {
+      color: darken($cyan-dark,10%);
+    }
   }
   .project-square-2-3 {
     background-color: darken($dark-grey,10%);
+    a, li {
+      color: darken($dark-grey,10%);
+    }
   }
   .project-square-2-4 {
     background-color: darken($dark-grey,25%);
+    a, li {
+      color: darken($dark-grey,25%);
+    }
   }
   .project-square-3-1, .project-square-3-2, .project-square-3-3 {
     height: 0;
@@ -699,6 +937,12 @@ section.projects {
     background-color: $cyan-dark;
   }
 }
+@media #{$medium-up} {
+  section.projects {
+
+  }
+}
+
 .flip-container {
   position: fixed;
   bottom: 0;
@@ -716,9 +960,9 @@ section.projects {
     transition-duration: 1s;
     transform-origin: bottom;
     -webkit-transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1.200); 
-       -moz-transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1.200); 
-         -o-transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1.200); 
+    -webkit-transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1.200);
+       -moz-transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1.200);
+         -o-transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1.200);
             transition-timing-function: cubic-bezier(0.680, 0.130, 0.250, 1.200); /* custom */
 
     .nav-timeline {
@@ -731,6 +975,35 @@ section.projects {
       margin-left: auto;
       margin-right: auto;
       margin-top: 1em;
+
+      .link-overlay {
+        a {
+          z-index: 100;
+          position: absolute;
+          display: block;
+          height: 100%;
+          width: 5%;
+
+          &.home {
+            left: 17.2%;
+            top: -15%;
+          }
+          &.skills {
+            width: 7%;
+            left: 35.9%;
+            top: -15%;
+          }
+          &.projects {
+            left: 56.5%;
+            top: -15%;
+          }
+          &.get-in-touch {
+            top: -15%;
+            left: 74.6%;
+            width: 8%;
+          }
+        }
+      }
 
       svg {
         position: relative;

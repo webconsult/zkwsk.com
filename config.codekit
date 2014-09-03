@@ -782,22 +782,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/bower_components\/foundation\/scss\/foundation\/components\/_reveal-new.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/foundation\/scss\/foundation\/components\/_reveal-new.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/_reveal-new.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/bower_components\/foundation\/scss\/foundation\/components\/_reveal.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1107,6 +1091,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/jquery-scrollspy.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/min\/jquery-scrollspy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery-scrollspy\/min\/jquery-scrollspy-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/min\/jquery-scrollspy-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery-scrollspy\/min\/min\/jquery-scrollspy-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3954,6 +3949,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/fourpio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10852,
+		"inputAbbreviatedPath": "\/img\/fourpio.jpg",
+		"outputAbbreviatedPath": "\/img\/fourpio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ios_music_app.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161122,
+		"inputAbbreviatedPath": "\/img\/ios_music_app.png",
+		"outputAbbreviatedPath": "\/img\/ios_music_app.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/iPhone-app.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3972,6 +3989,17 @@
 		"initialSize": 83145,
 		"inputAbbreviatedPath": "\/img\/Logo_24_small.png",
 		"outputAbbreviatedPath": "\/img\/Logo_24_small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mauritius.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25653,
+		"inputAbbreviatedPath": "\/img\/mauritius.jpg",
+		"outputAbbreviatedPath": "\/img\/mauritius.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4287,7 +4315,7 @@
 		"outputAbbreviatedPath": "\/stylesheets\/utility.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0

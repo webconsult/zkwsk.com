@@ -34,6 +34,94 @@ Array.prototype.swapItems = function(a, b){
     return this;
 };
 
+
+//Angular Stuff goes here
+
+var app = angular.module('zkwsk-module', []).filter('slice', function() {
+  return function(arr, start, end) {
+    return arr.slice(start, end);
+  };
+});
+
+app.controller('SkillsController', function($scope){
+  $scope.skills =
+    { development: [
+        { name: '.NET', level: 1, priority: 100 },
+        { name: 'Amazon Web Services', level: 1, priority: 100 },
+        { name: 'AngularJS', level: 1, priority: 100 },
+        { name: 'Bash', level: 1, priority: 100 },
+        { name: 'C#', level: 1, priority: 100 },
+        { name: 'CakePHP', level: 1, priority: 100 },
+        { name: 'CSS Animations', level: 1, priority: 100 },
+        { name: 'CSS3', level: 1, priority: 100 },
+        { name: 'Drupal', level: 1, priority: 100 },
+        { name: 'Graceful Degradation/Progressive Enhancement/', level: 1, priority: 100 },
+        { name: 'Heroku', level: 1, priority: 100 },
+        { name: 'HTML5', level: 1, priority: 100 },
+        { name: 'Java', level: 1, priority: 100 },
+        { name: 'Javascript', level: 1, priority: 100 },
+        { name: 'Joomla', level: 1, priority: 100 },
+        { name: 'jQuery', level: 1, priority: 100 },
+        { name: 'LESS', level: 1, priority: 100 },
+        { name: 'Linux', level: 1, priority: 100 },
+        { name: 'Meteor', level: 1, priority: 100 },
+        { name: 'MongoDB', level: 1, priority: 100 },
+        { name: 'MVC', level: 1, priority: 100 },
+        { name: 'MySQL', level: 1, priority: 100 },
+        { name: 'PHP', level: 1, priority: 100 },
+        { name: 'Razor', level: 1, priority: 100 },
+        { name: 'Responsive Web Design', level: 1, priority: 100 },
+        { name: 'Ruby On Rails', level: 1, priority: 100 },
+        { name: 'SASS', level: 1, priority: 100 },
+        { name: 'SVG Animations', level: 1, priority: 100 },
+        { name: 'Twitter Bootstrap', level: 1, priority: 100 },
+        { name: 'Vagrant Up', level: 1, priority: 100 },
+        { name: 'Wordpress', level: 1, priority: 100 },
+        { name: 'ZSH', level: 1, priority: 100 },
+        { name: 'ZURB Foundation', level: 1, priority: 100 }
+      ],
+      design: [
+        { name: 'Adobe Illustrator', level: 1, priority: 100 },
+        { name: 'Adobe Photoshop', level: 1, priority: 100 },
+        { name: 'Cognition', level: 1, priority: 100 },
+        { name: 'Context-aware Design', level: 1, priority: 100 },
+        { name: 'Design Patterns (Android)', level: 1, priority: 100 },
+        { name: 'Design Patterns (iOS)', level: 1, priority: 100 },
+        { name: 'Design Patterns (web)', level: 1, priority: 100 },
+        { name: 'Design Thinking', level: 1, priority: 100 },
+        { name: 'Information Architecture', level: 1, priority: 100 },
+        { name: 'Mental Models', level: 1, priority: 100 },
+        { name: 'Personas', level: 1, priority: 100 },
+        { name: 'Persuasive Technology', level: 1, priority: 100 },
+        { name: 'Prototyping', level: 1, priority: 100 },
+        { name: 'Scenarios', level: 1, priority: 100 },
+        { name: 'Usability', level: 1, priority: 100 },
+        { name: 'Usability Testing', level: 1, priority: 100 },
+        { name: 'User Research', level: 1, priority: 100 },
+        { name: 'Video Editing', level: 1, priority: 100 },
+        { name: 'Visual Design', level: 1, priority: 100 },
+        { name: 'Wireframing', level: 1, priority: 100 }
+      ],
+      management: [
+        { name: 'Accounting', level: 1, priorty: 100 },
+        { name: 'Agile', level: 1, priorty: 100 },
+        { name: 'Business Model Canvas', level: 1, priorty: 100 },
+        { name: 'Business Process Modelling', level: 1, priorty: 100 },
+        { name: 'E-commerce', level: 1, priorty: 100 },
+        { name: 'Internet Business Models', level: 1, priorty: 100 },
+        { name: 'Kanban', level: 1, priorty: 100 },
+        { name: 'Knowledge Management', level: 1, priorty: 100 },
+        { name: 'LEAN', level: 1, priorty: 100 },
+        { name: 'LEAN Startup', level: 1, priorty: 100 },
+        { name: 'Marketing', level: 1, priorty: 100 },
+        { name: 'Podio', level: 1, priorty: 100 },
+        { name: 'Product Management', level: 1, priorty: 100 },
+        { name: 'SCRUM', level: 1, priorty: 100 },
+        { name: 'Strategy', level: 1, priorty: 100 }
+      ]
+    };
+});
+
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
@@ -68,6 +156,7 @@ $(document).ready(function(){
     if( this.currentTime > ( this.duration - 3 ) ) {
       // $( 'html.no-touch .header-video' ).get(0).fadeOut(3000);
       $('.header-profile-pic').fadeIn(3000);
+      //$('.logo-container').addClass('profile-pic-shown');
       $(this).addClass('hidden');
     }
   });
@@ -93,9 +182,7 @@ $(document).ready(function(){
   };
 
 
-  $('a[href^="#action_"]').on('click',function(e){
-    e.preventDefault();
-  });
+
 
   //Deprecated code to hide and show the paper CV
   // var paperHidden = true;
@@ -124,7 +211,7 @@ $(document).ready(function(){
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top + 3 //3px offset needed to align trigger menu
         }, 500);
         return false;
       }
@@ -175,7 +262,7 @@ $(document).ready(function(){
       $('.nav-timeline').removeClass('active-get-in-touch');
       $('.nav-timeline').addClass('dot-projects');
     }
-  });
+  },{ offset: 'bottom-in-view'});
 
 
 
@@ -191,10 +278,38 @@ $(document).ready(function(){
     },500);
   }, { offset: '30%' });
 
+  $('a[href^="#action_"]').on('click',function(e){
+    e.preventDefault();
+  });
+
+  $('.keywords li a[href^="#"]').on('click',function(e){
+    e.preventDefault();
+  });
+
   $('section.projects [href="#action_close"]').click(function(){
       minimize_square();
     }
   );
+
+  $('section.skills [href="#action_show_all_development_skills"]').click(function(){
+    $('.select-skills').hide();
+    $('.all-skills.development').fadeIn(500);
+  });
+
+  $('section.skills [href="#action_show_all_design_skills"]').click(function(){
+    $('.select-skills').hide();
+    $('.all-skills.design').fadeIn(500);
+  });
+
+  $('section.skills [href="#action_show_all_management_skills"]').click(function(){
+    $('.select-skills').hide();
+    $('.all-skills.management').fadeIn(500);
+  });
+
+  $('section.skills [href="#action_hide_skill_details"]').click(function(){
+    $('.all-skills').hide();
+    $('.select-skills').fadeIn(500);
+  });  
 
 }); //document ready
 
@@ -206,6 +321,3 @@ return {
   relocate_squares: function($el) { relocate_squares($el); }
 };
 })();
-
-
-

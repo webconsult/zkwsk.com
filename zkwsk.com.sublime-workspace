@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"transi",
+				"transition-duration"
+			],
+			[
+				"cyan-",
+				"cyan-dark"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"cya",
+				"cyan-dark"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"trans",
+				"transition-property"
+			],
+			[
+				"minimi",
+				"minimize_square"
+			],
+			[
+				"tr",
+				"transition-delay"
+			],
+			[
+				"tra",
+				"transition-property"
+			],
+			[
 				"clear",
 				"clear_nav"
 			],
@@ -44,16 +96,8 @@
 				"ease-in-out"
 			],
 			[
-				"padding-",
-				"padding-bottom"
-			],
-			[
 				"da",
 				"dark-grey"
-			],
-			[
-				"cyan-",
-				"cyan-dark"
 			],
 			[
 				"webki",
@@ -66,10 +110,6 @@
 			[
 				"paddin",
 				"padding-bottom"
-			],
-			[
-				"fade",
-				"fadeIn"
 			],
 			[
 				"padd",
@@ -106,10 +146,6 @@
 			[
 				"cyan",
 				"cyan-bright"
-			],
-			[
-				"margin-",
-				"margin-left"
 			],
 			[
 				"backgr",
@@ -308,10 +344,6 @@
 				"controller"
 			],
 			[
-				"paddi",
-				"padding-left"
-			],
-			[
 				"low",
 				"lowerBound"
 			],
@@ -366,10 +398,6 @@
 			[
 				"multi",
 				"multiples"
-			],
-			[
-				"padding",
-				"padding"
 			],
 			[
 				"text",
@@ -486,78 +514,58 @@
 			[
 				"overfl",
 				"overflow-y"
-			],
-			[
-				"over",
-				"overflow-y"
-			],
-			[
-				"ove",
-				"overflow-y"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"background-",
-				"background-color"
-			],
-			[
-				"def-a",
-				"def-trans-time"
-			],
-			[
-				"coll",
-				"collaborators-emails"
-			],
-			[
-				"login-",
-				"login-row"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "scss/app.scss",
-			"settings":
-			{
-				"buffer_size": 18676,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 5526,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 28754,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/zaki/Dropbox/Development environments/drupal/puphpet/config.yaml",
-			"settings":
-			{
-				"buffer_size": 6012,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"javasc",
 				"Set Syntax: JavaScript"
@@ -565,10 +573,6 @@
 			[
 				"trail",
 				"Trailing Spaces: Delete Trailing Spaces"
-			],
-			[
-				"prett",
-				"HTMLPrettify"
 			],
 			[
 				"html",
@@ -593,10 +597,6 @@
 			[
 				"todo",
 				"Show TODOs: Project and open files"
-			],
-			[
-				"packa",
-				"Package Control: List Packages"
 			],
 			[
 				"brows",
@@ -697,10 +697,6 @@
 			[
 				"diff",
 				"FileDiffs: Menu"
-			],
-			[
-				"javas",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"list pa",
@@ -831,10 +827,6 @@
 				"Set Syntax: JavaScript"
 			],
 			[
-				"tra",
-				"Trailing Spaces: Delete Trailing Spaces"
-			],
-			[
 				"Snippet",
 				"Snippet: Function"
 			],
@@ -927,13 +919,15 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 593.0
+		"width": 665.0
 	},
 	"console":
 	{
-		"height": 315.0,
+		"height": 409.0,
 		"history":
 		[
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)",
 			"cd ~/sites",
 			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
 		]
@@ -947,21 +941,39 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com"
+	],
 	"file_history":
 	[
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.gitignore",
+		"/Users/zaki/Downloads/postnumre.csv",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/app.js",
+		"/Users/zaki/Dropbox/Development environments/drupal/drupal.dev/sites/default/settings.php",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/71c39dda96aaad33f2d452033ca84886bcfb9bbd/_font-face.scssc",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/foundation.html",
+		"/Users/zaki/Dropbox/UVP Projekt/UndervisningsPortalen-2014-08-27T21-23-04/MANIFEST.ini",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/shapes.css",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/jquery/src/css.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/jquery/src/ajax/script.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/shapes.scss",
+		"/Users/zaki/Dropbox/Development environments/drupal/puphpet/config.yaml",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/foundation/scss/foundation/components/_global.scss",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/jquery-scrollspy/jquery-scrollspy.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/javascript_performance.html",
+		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/utility.scss",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/app.css",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.gitignore",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/timeline.svg",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/timeline_full.svg",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/log.sublime-snippet",
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Snippets/onClick.sublime-snippet",
-		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/zaki/Dropbox/Development environments/backpack/backpack/Gemfile",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/app.js",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/utility.scss",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/shapes.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/config.rb",
 		"/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/es5-strictmode.js",
@@ -977,7 +989,6 @@
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/bg_cyan_dark.svg",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/bg_top.svg",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/svg-test.html",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/stylesheets/app.css",
 		"/Users/zaki/Desktop/Apple Final Cut Pro v10.1.2 - [MUMBAI-TPB]/Follow Me.txt",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/README.md",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/img/zkwsk_logo_red.svg",
@@ -989,10 +1000,8 @@
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/fonts/icons/selection.json",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/folded-paper.js",
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/9e98899059faa3b18005340591952390d2ea17d0/_keystrokes.scssc",
 		"/Users/zaki/Dropbox/Webconsu.lt/web late 2013/index.html",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/foundation.html",
 		"/Users/zaki/.zprofile",
 		"/Users/zaki/.profile",
 		"/Users/zaki/.zrofile",
@@ -1065,18 +1074,7 @@
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/index.html",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Gemfile.lock",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config.ru",
-		"/Users/zaki/Downloads/terminal-finder.alfredworkflow",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config/application.rb",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/sum",
-		"/etc/hosts",
-		"/Users/zaki/Dropbox/Development environments/Startupawards_dev/puphpet/config.yaml",
-		"/Users/zaki/Dropbox/Development environments/Startupawards_dev/central-european-startup-awards/wp-config.php",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/app/controllers/page_controller.rb",
-		"/Users/zaki/Dropbox/Development environments/Startupawards-dev/puphpet/config.yaml",
-		"/Users/zaki/Dropbox/Development environments/Startupawards_dev/puphpet/files/dot/ssh/insecure_private_key",
-		"/Users/zaki/Dropbox/Development environments/Startupawards-dev/manifest.pp",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/bin/rails",
-		"/Users/zaki/Desktop/backers_dummy_data.csv"
+		"/Users/zaki/Downloads/terminal-finder.alfredworkflow"
 	],
 	"find":
 	{
@@ -1095,6 +1093,93 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"profile",
+			"fourp",
+			"AIRTAME",
+			"profile",
+			"section.ski",
+			"profile-pic-sh",
+			"@include",
+			"@inclu",
+			"profile-p",
+			"logo",
+			"section.ge",
+			"get-in",
+			"project-de",
+			"get-in",
+			"width",
+			"left",
+			"left: 16.2%;",
+			"top: 13%;",
+			"link-o",
+			"projects",
+			"skills",
+			"smoot",
+			"waypoint",
+			"h3>dev",
+			"#act",
+			"</b>",
+			"<b>",
+			"</b>",
+			"<b>",
+			"<p",
+			"p",
+			"</li>",
+			"developement",
+			"Read More",
+			"Read mo",
+			"Read More",
+			"Read more",
+			"h2",
+			"section.skill",
+			"section.ex",
+			"clients",
+			".project-d",
+			"expand",
+			"&.tig",
+			"keywo",
+			"expand",
+			"logo",
+			"airtam",
+			"logo.ai",
+			"logo",
+			"ux de",
+			"role-co",
+			"<h4>My role...</h4>",
+			"keywords",
+			"airtam",
+			"founders",
+			"Keywords...",
+			"Keywords:",
+			"h2",
+			"cto",
+			"startup",
+			"logo.star",
+			"nordi",
+			"imac",
+			"crowd",
+			"there",
+			"10%",
+			"hello",
+			"h2",
+			"I have bee",
+			"get-in",
+			"logos",
+			"fourp",
+			"logo",
+			"minimiz",
+			"keywor",
+			"h2",
+			"radiu",
+			"border-bo",
+			"sm",
+			"@media",
+			"bottom: 0",
+			"23px",
+			"container",
+			"button",
+			"minimi",
+			"expand",
 			"minimized",
 			"jake foley",
 			"2222",
@@ -1135,94 +1220,7 @@
 			"open-s",
 			"video",
 			"transf",
-			"transform",
-			"circle",
-			"stroke-dashoffset: 4955.64404296875;\n    stroke-opacity: 100%;",
-			"stroke-opacity: 100%;",
-			"circle",
-			"@/",
-			"mp4",
-			"require",
-			"import",
-			"-webk",
-			"        -webkit-animation: wireframe 1.5s linear forwards;\n",
-			"-webkit-animation",
-			"animation",
-			"ease-in-out",
-			"rotate",
-			"transfor",
-			"client-l",
-			"client-logos-",
-			"client-i",
-			"<hr class=\"show-for-small-only\">",
-			"skill-lis",
-			"skill-list",
-			"skill-li",
-			"font-we",
-			"client-i",
-			"font-we",
-			".clients",
-			".client",
-			"clients",
-			"background-im",
-			"background-",
-			"back",
-			"logo-con",
-			"skill",
-			"triangle",
-			"line ",
-			"logo-c",
-			"1s",
-			".header-v",
-			" style=\"display:none\"",
-			"logo-c",
-			"padding-bo",
-			"border-bo",
-			"2x",
-			"16.6666667%",
-			"triangle",
-			" end",
-			"small-6 column",
-			"get in to",
-			"clients",
-			"section.cle",
-			"client-logo",
-			"justify",
-			"text-tr",
-			"show-f",
-			"profile",
-			"small-",
-			"media",
-			"clients",
-			"scroll",
-			"logos",
-			"show all",
-			"h1, h2",
-			"media",
-			"skill-li",
-			"skill",
-			"skill-lis",
-			"skill-list",
-			"skill",
-			"skill-li",
-			"h3",
-			"people i ",
-			"h3",
-			"scroll",
-			"hover",
-			"showScroller",
-			"video",
-			"strategy",
-			"Touch",
-			"touch",
-			"get in t",
-			"front-en",
-			"font-w",
-			"ul",
-			"people",
-			"get in",
-			"get in to",
-			"get in tou"
+			"transform"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1281,182 +1279,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "scss/app.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18676,
-						"regions":
-						{
-							"gutter_color_11204":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										11204,
-										11220
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1683":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#7b919d.png",
-								"regions":
-								[
-									[
-										1683,
-										1721
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1722":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/rgba(0,0,0,0.35).png",
-								"regions":
-								[
-									[
-										1722,
-										1766
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								3992,
-								3992
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3856.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5526,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								949,
-								949
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 28754,
-						"regions":
-						{
-							"TagLint":
-							{
-								"flags": 2356,
-								"icon": "dot",
-								"regions":
-								[
-									[
-										22064,
-										22067
-									]
-								],
-								"scope": "variable.parameter"
-							}
-						},
-						"selection":
-						[
-							[
-								7049,
-								7039
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 908.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/zaki/Dropbox/Development environments/drupal/puphpet/config.yaml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6012,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								347,
-								351
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1515,8 +1339,28 @@
 		"selected_items":
 		[
 			[
+				"app.js",
+				"js/app.js"
+			],
+			[
+				"scss",
+				"scss/app.scss"
+			],
+			[
+				"js",
+				"bower_components/jquery-scrollspy/jquery-scrollspy.js"
+			],
+			[
+				"util",
+				"scss/utility.scss"
+			],
+			[
 				"colo",
 				"scss/colors.scss"
+			],
+			[
+				"app.c",
+				"scss/app.scss"
 			],
 			[
 				"inde",
@@ -2005,26 +1849,6 @@
 			[
 				".i",
 				".gitignore"
-			],
-			[
-				"seeds",
-				"db/seeds.rb"
-			],
-			[
-				"_for",
-				"app/views/products/_form.html.erb"
-			],
-			[
-				"cre",
-				"db/migrate/20140315154612_create_products.rb"
-			],
-			[
-				"databa",
-				"config/database.yml"
-			],
-			[
-				"2014",
-				"db/migrate/20140315154612_create_products.rb"
 			]
 		],
 		"width": 0.0
@@ -2089,6 +1913,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
