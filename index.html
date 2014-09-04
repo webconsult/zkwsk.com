@@ -269,18 +269,9 @@
       <div class="all-skills development small-12 medium-10 medium-offset-1 clearfix hide">
         <h3>Development</h3>
         <hr>
-        <ul class="small-12 medium-4 columns">
-          <li ng-repeat="skill in skills.development | slice:0:10">
-            {{ skill.name }}
-          </li>
-        </ul>
-        <ul class="small-12 medium-4 columns">
-          <li ng-repeat="skill in skills.development | slice:10:21">
-            {{ skill.name }}
-          </li>
-        </ul>
-        <ul class="small-12 medium-4 columns">
-          <li ng-repeat="skill in skills.development | slice:21:32">
+        <input type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_development">
+        <ul ng-repeat="column in columns.development" class="medium-4 columns">
+          <li ng-repeat="skill in skills.development | filter:filter_development | slice:column.start:column.end">
             {{ skill.name }}
           </li>
         </ul>
@@ -289,13 +280,9 @@
       <div class="all-skills design small-12 medium-10 medium-offset-1 clearfix hide">
         <h3>Design</h3>
         <hr>
-        <ul class="small-12 medium-4 medium-offset-2 columns">
-          <li ng-repeat="skill in skills.design | slice:0:10">
-            {{ skill.name }}
-          </li>
-        </ul>
-        <ul class="small-12 medium-4 columns">
-          <li ng-repeat="skill in skills.design | slice:10:20">
+        <input type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_design">
+        <ul ng-repeat="column in columns.design" class="medium-4 columns">
+          <li ng-repeat="skill in skills.design | filter:filter_design | slice:column.start:column.end">
             {{ skill.name }}
           </li>
         </ul>
@@ -304,13 +291,9 @@
       <div class="all-skills management small-12 medium-10 medium-offset-1 clearfix hide">
         <h3>Management</h3>
         <hr>
-        <ul class="small-12 medium-4 medium-offset-2 columns">
-          <li ng-repeat="skill in skills.management | slice:0:8">
-            {{ skill.name}}
-          </li>
-        </ul>
-        <ul class="small-12 medium-4 columns">
-          <li ng-repeat="skill in skills.management | slice:8:16">
+        <input type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_management">
+        <ul ng-repeat="column in columns.management" class="medium-4 columns">
+          <li ng-repeat="skill in skills.management | filter:filter_management | slice:column.start:column.end">
             {{ skill.name }}
           </li>
         </ul>
@@ -320,10 +303,9 @@
         <h3>Development</h3>
         <hr>
         <ul>
-          <li>Javascript</li>
-          <li>Ruby on Rails</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
+          <li ng-repeat="skill in skills.development | orderBy: 'priority' | limitTo: 5">
+            {{ skill.name }}
+          </li>
         </ul>
         <a class="button" href="#action_show_all_development_skills">Show All</a>
       </div>
@@ -331,10 +313,9 @@
         <h3>UX Design</h3>
         <hr>
         <ul>
-          <li>Design Thinking</li>
-          <li>Usability Testing</li>
-          <li>Personas</li>
-          <li>Design Patterns (web, mobile)</li>
+          <li ng-repeat="skill in skills.design | orderBy: 'priority' | limitTo: 5">
+            {{ skill.name }}
+          </li>
         </ul>
         <a class="button" href="#action_show_all_design_skills">Show All</a>
       </div>
@@ -342,10 +323,9 @@
         <h3>Management</h3>
         <hr>
         <ul>
-          <li>Project Management</li>
-          <li>Product Management</li>
-          <li>Agile/SCRUM</li>
-          <li>LEAN Startup</li>
+          <li ng-repeat="skill in skills.management | orderBy: 'priority' | limitTo: 5">
+            {{ skill.name }}
+          </li>
         </ul>
         <a class="button" href="#action_show_all_management_skills">Show All</a>
       </div>

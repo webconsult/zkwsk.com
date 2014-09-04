@@ -43,6 +43,8 @@ var app = angular.module('zkwsk-module', []).filter('slice', function() {
   };
 });
 
+
+
 app.controller('SkillsController', function($scope){
   $scope.skills =
     { development: [
@@ -53,13 +55,14 @@ app.controller('SkillsController', function($scope){
         { name: 'C#', level: 1, priority: 100 },
         { name: 'CakePHP', level: 1, priority: 100 },
         { name: 'CSS Animations', level: 1, priority: 100 },
-        { name: 'CSS3', level: 1, priority: 100 },
+        { name: 'CSS3', level: 1, priority: 2 },
         { name: 'Drupal', level: 1, priority: 100 },
-        { name: 'Graceful Degradation/Progressive Enhancement/', level: 1, priority: 100 },
+        { name: 'Graceful Degradation', level: 1, priority: 100 },
+        { name: 'Progressive Enhancement', level: 1, priority: 100 },
         { name: 'Heroku', level: 1, priority: 100 },
-        { name: 'HTML5', level: 1, priority: 100 },
+        { name: 'HTML5', level: 1, priority: 1 },
         { name: 'Java', level: 1, priority: 100 },
-        { name: 'Javascript', level: 1, priority: 100 },
+        { name: 'Javascript', level: 1, priority: 3 },
         { name: 'Joomla', level: 1, priority: 100 },
         { name: 'jQuery', level: 1, priority: 100 },
         { name: 'LESS', level: 1, priority: 100 },
@@ -68,10 +71,10 @@ app.controller('SkillsController', function($scope){
         { name: 'MongoDB', level: 1, priority: 100 },
         { name: 'MVC', level: 1, priority: 100 },
         { name: 'MySQL', level: 1, priority: 100 },
-        { name: 'PHP', level: 1, priority: 100 },
+        { name: 'PHP', level: 1, priority: 5 },
         { name: 'Razor', level: 1, priority: 100 },
         { name: 'Responsive Web Design', level: 1, priority: 100 },
-        { name: 'Ruby On Rails', level: 1, priority: 100 },
+        { name: 'Ruby On Rails', level: 1, priority: 4 },
         { name: 'SASS', level: 1, priority: 100 },
         { name: 'SVG Animations', level: 1, priority: 100 },
         { name: 'Twitter Bootstrap', level: 1, priority: 100 },
@@ -89,37 +92,73 @@ app.controller('SkillsController', function($scope){
         { name: 'Design Patterns (iOS)', level: 1, priority: 100 },
         { name: 'Design Patterns (web)', level: 1, priority: 100 },
         { name: 'Design Thinking', level: 1, priority: 100 },
-        { name: 'Information Architecture', level: 1, priority: 100 },
+        { name: 'Information Architecture', level: 1, priority: 2 },
         { name: 'Mental Models', level: 1, priority: 100 },
         { name: 'Personas', level: 1, priority: 100 },
         { name: 'Persuasive Technology', level: 1, priority: 100 },
         { name: 'Prototyping', level: 1, priority: 100 },
         { name: 'Scenarios', level: 1, priority: 100 },
         { name: 'Usability', level: 1, priority: 100 },
-        { name: 'Usability Testing', level: 1, priority: 100 },
-        { name: 'User Research', level: 1, priority: 100 },
+        { name: 'Usability Testing', level: 1, priority: 3 },
+        { name: 'User Research', level: 1, priority: 1 },
         { name: 'Video Editing', level: 1, priority: 100 },
-        { name: 'Visual Design', level: 1, priority: 100 },
-        { name: 'Wireframing', level: 1, priority: 100 }
+        { name: 'Visual Design', level: 1, priority: 5 },
+        { name: 'Wireframing', level: 1, priority: 4 }
       ],
       management: [
-        { name: 'Accounting', level: 1, priorty: 100 },
-        { name: 'Agile', level: 1, priorty: 100 },
-        { name: 'Business Model Canvas', level: 1, priorty: 100 },
-        { name: 'Business Process Modelling', level: 1, priorty: 100 },
-        { name: 'E-commerce', level: 1, priorty: 100 },
-        { name: 'Internet Business Models', level: 1, priorty: 100 },
-        { name: 'Kanban', level: 1, priorty: 100 },
-        { name: 'Knowledge Management', level: 1, priorty: 100 },
-        { name: 'LEAN', level: 1, priorty: 100 },
-        { name: 'LEAN Startup', level: 1, priorty: 100 },
-        { name: 'Marketing', level: 1, priorty: 100 },
-        { name: 'Podio', level: 1, priorty: 100 },
-        { name: 'Product Management', level: 1, priorty: 100 },
-        { name: 'SCRUM', level: 1, priorty: 100 },
-        { name: 'Strategy', level: 1, priorty: 100 }
+        { name: 'Accounting', level: 1, priority: 100 },
+        { name: 'Agile', level: 1, priority: 1 },
+        { name: 'Business Model Canvas', level: 1, priority: 100 },
+        { name: 'Business Process Modelling', level: 1, priority: 100 },
+        { name: 'E-commerce', level: 1, priority: 5 },
+        { name: 'Internet Business Models', level: 1, priority: 4 },
+        { name: 'Kanban', level: 1, priority: 100 },
+        { name: 'Knowledge Management', level: 1, priority: 100 },
+        { name: 'LEAN', level: 1, priority: 100 },
+        { name: 'LEAN Startup', level: 1, priority: 3 },
+        { name: 'Marketing', level: 1, priority: 100 },
+        { name: 'Podio', level: 1, priority: 100 },
+        { name: 'Product Management', level: 1, priority: 100 },
+        { name: 'SCRUM', level: 1, priority: 2 },
+        { name: 'Strategy', level: 1, priority: 100 }
       ]
     };
+
+
+  $scope.columns = {
+    development: [],
+    design: [],
+    management: []
+  };
+
+  $scope.columnCount = 3;
+
+
+  function calculateColumns(listLength, columnsArray) {
+
+    //Determines whether to use a 1, 2 or 3 column layout based on listLength
+    if (listLength <= 5) {
+      $scope.columnCount = 1;
+    }
+    else if (5 < listLength && listLength <= 10) {
+      $scope.columnCount = 2;
+    } else if (10 < listLength) {
+      $scope.columnCount = 3;
+    }
+
+    var itemsPerColumn = Math.ceil(listLength / $scope.columnCount);
+
+    //Populates the column array
+    for (var i=0; i<listLength; i += itemsPerColumn) {
+      var col = { start: i, end: Math.min(i + itemsPerColumn, listLength) };
+      columnsArray.push(col);
+    }
+  }
+
+  calculateColumns($scope.skills.development.length, $scope.columns.development);
+  calculateColumns($scope.skills.design.length, $scope.columns.design);
+  calculateColumns($scope.skills.management.length, $scope.columns.management);
+
 });
 
 // Foundation JavaScript
