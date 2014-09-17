@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"col",
+				"columnCount"
+			],
+			[
 				"transi",
 				"transition-duration"
 			],
@@ -14,10 +22,6 @@
 			[
 				"fade",
 				"fadeOut"
-			],
-			[
-				"padding-",
-				"padding-right"
 			],
 			[
 				"bord",
@@ -510,10 +514,6 @@
 			[
 				"do",
 				"document"
-			],
-			[
-				"overfl",
-				"overflow-y"
 			]
 		]
 	},
@@ -526,6 +526,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
 			[
 				"prett",
 				"HTMLPrettify"
@@ -569,10 +573,6 @@
 			[
 				"javasc",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"trail",
-				"Trailing Spaces: Delete Trailing Spaces"
 			],
 			[
 				"html",
@@ -919,7 +919,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 665.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -947,11 +947,14 @@
 	],
 	"file_history":
 	[
-		"/Users/zaki/Downloads/postnumre.csv",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/js/app.js",
-		"/Users/zaki/Dropbox/Development environments/drupal/drupal.dev/sites/default/settings.php",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/index.html",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/app.scss",
+		"/Users/zaki/Dropbox/Git repositories/60-min angular/4 - Creating view and controller.html",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/modernizr/feature-detects/css-scrollbars.js",
+		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
+		"/Users/zaki/Downloads/postnumre.csv",
+		"/Users/zaki/Dropbox/Development environments/drupal/drupal.dev/sites/default/settings.php",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/.sass-cache/71c39dda96aaad33f2d452033ca84886bcfb9bbd/_font-face.scssc",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/foundation.html",
 		"/Users/zaki/Dropbox/UVP Projekt/UndervisningsPortalen-2014-08-27T21-23-04/MANIFEST.ini",
@@ -960,7 +963,6 @@
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/jquery/src/ajax/script.js",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/shapes.scss",
 		"/Users/zaki/Dropbox/Development environments/drupal/puphpet/config.yaml",
-		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/scss/colors.scss",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/foundation/scss/foundation/components/_global.scss",
 		"/Users/zaki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/zaki/Dropbox/Webconsu.lt/zkwsk.com/bower_components/jquery-scrollspy/jquery-scrollspy.js",
@@ -1072,9 +1074,7 @@
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/package.json",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/npm-debug.log",
 		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/index.html",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Gemfile.lock",
-		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/config.ru",
-		"/Users/zaki/Downloads/terminal-finder.alfredworkflow"
+		"/Users/zaki/Dropbox/Development environments/indiegogo-backerscript/Gemfile.lock"
 	],
 	"find":
 	{
@@ -1093,6 +1093,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"calculateColumns",
+			"skills",
+			".project-de",
+			"input",
+			"priorty",
+			"development",
+			"columnCount",
+			"itemsPerColumn",
+			"$scope.skills.development.length",
+			"slice",
+			"zkwskApp",
+			"ug",
+			"</li>",
+			"<li>",
+			"</li>",
+			"<li>",
+			"</li>",
+			"<li>",
+			"ng-re",
+			"ng-i",
+			"skills",
 			"profile",
 			"fourp",
 			"AIRTAME",
@@ -1199,28 +1220,7 @@
 			"projects",
 			"skills",
 			"way",
-			"experience",
-			"active-ho",
-			"animation",
-			"select",
-			"stroke",
-			"d7d9d9",
-			"AAC8D9",
-			"#AAC8D9",
-			"circle",
-			"#F1F2F2",
-			"stroke-width=\"2\"",
-			"figure",
-			"timelin",
-			"video",
-			"button",
-			"#card",
-			"time",
-			"font",
-			"open-s",
-			"video",
-			"transf",
-			"transform"
+			"experience"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1339,6 +1339,18 @@
 		"selected_items":
 		[
 			[
+				"ind",
+				"index.html"
+			],
+			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"app.",
+				"scss/app.scss"
+			],
+			[
 				"app.js",
 				"js/app.js"
 			],
@@ -1367,16 +1379,8 @@
 				"index.html"
 			],
 			[
-				"app",
-				"scss/app.scss"
-			],
-			[
 				"",
 				"js/app.js"
-			],
-			[
-				"ind",
-				"index.html"
 			],
 			[
 				"_s",
@@ -1389,10 +1393,6 @@
 			[
 				"utili",
 				"scss/utility.scss"
-			],
-			[
-				"app.",
-				"js/app.js"
 			],
 			[
 				"co",

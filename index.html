@@ -269,7 +269,10 @@
       <div class="all-skills development small-12 medium-10 medium-offset-1 clearfix hide">
         <h3>Development</h3>
         <hr>
-        <input type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_development">
+        <fieldset class="medium-8 medium-offset-2 large-4 large-offset-4">
+          <label for="filter_development">Filter</label>
+          <input id="filter_development" type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_development">
+        </fieldset>
         <ul ng-repeat="column in columns.development" class="medium-4 columns">
           <li ng-repeat="skill in skills.development | filter:filter_development | slice:column.start:column.end">
             {{ skill.name }}
@@ -280,7 +283,10 @@
       <div class="all-skills design small-12 medium-10 medium-offset-1 clearfix hide">
         <h3>Design</h3>
         <hr>
-        <input type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_design">
+        <fieldset class="medium-8 medium-offset-2 large-4 large-offset-4">
+          <label for="filter_design">Filter</label>
+          <input id="filter_design" type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_design">
+        </fieldset>
         <ul ng-repeat="column in columns.design" class="medium-4 columns">
           <li ng-repeat="skill in skills.design | filter:filter_design | slice:column.start:column.end">
             {{ skill.name }}
@@ -291,7 +297,10 @@
       <div class="all-skills management small-12 medium-10 medium-offset-1 clearfix hide">
         <h3>Management</h3>
         <hr>
-        <input type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_management">
+        <fieldset class="medium-8 medium-offset-2 large-4 large-offset-4">
+          <label for="filter_management">Filter</label>
+          <input id="filter_management" type="text" placeholder="What are you looking for? Type it here..." ng-model="filter_management">
+        </fieldset>
         <ul ng-repeat="column in columns.management" class="medium-4 columns">
           <li ng-repeat="skill in skills.management | filter:filter_management | slice:column.start:column.end">
             {{ skill.name }}
@@ -337,7 +346,7 @@
       <p class="introduction medium-8 medium-offset-2 large-6 large-offset-3">
       I have been working for <b>large companies</b> as well as <b>early-stage startups</b> and I see different opportunities in either. Below are a handful of the companies and organizations I have been working for in the past...
       </p>
-        <div class="medium-6 column project-square-2-1">
+        <div id="airtame" class="medium-6 column project-square-2-1">
           <a href="#action_close" class="close"><img src="img/cross.svg" alt="close"></a>
           <div class="container">
             <a href="http://airtame.com"><img class="logo airtame" src="img/client-icons/airtame.svg" alt="go to airtame.com"></a>
@@ -371,10 +380,10 @@
                 <li><a href="http://www.vagrantup.com/" alt="Vagrant Up website">Vagrant&nbsp;Up</a></li>
               </ul>
             </div>
-            <button class="expand" onclick="ZKWSK.expand_square(0);">Learn more...</button>
+            <button class="expand" onclick="ZKWSK.expand_square(0); window.location.replace('/#airtame');">Learn more...</button>
           </div>
         </div>
-        <div class="medium-6 column project-square-2-2">
+        <div id="startupawards" class="medium-6 column project-square-2-2">
           <a href="#action_close" class="close"><img src="img/cross.svg" alt="close"></a>
           <div class="container">
             <div class="logo startupawards clearfix">
@@ -422,10 +431,10 @@
                 <li><a href="#">SCRUM</a></li>
               </ul>
             </div>
-            <button class="expand" onclick="ZKWSK.expand_square(1);">Learn more...</button>
+            <button class="expand" onclick="ZKWSK.expand_square(1); window.location.replace('/#startupawards');">Learn more...</button>
           </div>
         </div>
-        <div class="medium-6 column project-square-2-3">
+        <div id="fourpio" class="medium-6 column project-square-2-3">
           <a href="#action_close" class="close"><img src="img/cross.svg" alt="close"></a>
           <div class="container">
             <a href="http://fourp.io"><img class="logo fourpio" src="img/client-icons/fourpio.svg" alt="go to fourp.io"></a>
@@ -468,7 +477,7 @@
             <button class="expand" onclick="ZKWSK.expand_square(2);">Learn more...</button>
           </div>
         </div>
-        <div class="medium-6 column project-square-2-4 end">
+        <div id="tigerspring" class="medium-6 column project-square-2-4 end">
           <a href="#action_close" class="close"><img src="img/cross.svg" alt="close"></a>
           <div class="container">
             <a href="https://www.facebook.com/tigerspring"><img class="logo tigerspring" src="img/client-icons/tigerspring.svg" alt="go to the Tigerspring facebook page"></a>
@@ -494,7 +503,7 @@
             <section class="project-description">
               <div class="row">
                 <div class="medium-12 columns">
-                  <p><img class="img-float-right medium-6" src="img/ios_music_app.png" alt="Animated preview of the system built for AIRTAME">
+                  <p><a href="img/ios_music_app.png"><img class="img-float-right medium-6" src="img/ios_music_app.png" alt="Proof-of-concept app design"></a>
                     During summer 2013 I was part of a team of developers and designers who got to travel to Mauritius on a developer bootcamp. The aim was to build a music app for the danish recording company Tigerspring Records.
                   </p><p>
                     In the morning we trained karate, daytimes where spend designing and coding and evenings where spend at local restaurants and bars. The weekends where reserved for going out and sightseeing.

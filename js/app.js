@@ -22,7 +22,7 @@ var expand_square = function(id) {
 var minimize_square = function() {
   $('[class*="project-square-2"].expanded').removeClass('expanded');
   $('[class*="project-square-2"]').removeClass('minimized');
-}
+};
 
 var clear_nav = function() {
   $('.nav-timeline').removeClass('dot-home').removeClass('dot-experience').removeClass('dot-projects').removeClass('dot-get-in-touch');
@@ -45,7 +45,7 @@ var app = angular.module('zkwsk-module', []).filter('slice', function() {
 
 
 
-app.controller('SkillsController', function($scope){
+app.controller('SkillsController', ['$scope', function($scope){
   $scope.skills =
     { development: [
         { name: '.NET', level: 1, priority: 100 },
@@ -110,17 +110,17 @@ app.controller('SkillsController', function($scope){
         { name: 'Agile', level: 1, priority: 1 },
         { name: 'Business Model Canvas', level: 1, priority: 100 },
         { name: 'Business Process Modelling', level: 1, priority: 100 },
-        { name: 'E-commerce', level: 1, priority: 5 },
+        { name: 'E-commerce', level: 1, priority: 7 },
         { name: 'Internet Business Models', level: 1, priority: 4 },
         { name: 'Kanban', level: 1, priority: 100 },
         { name: 'Knowledge Management', level: 1, priority: 100 },
         { name: 'LEAN', level: 1, priority: 100 },
         { name: 'LEAN Startup', level: 1, priority: 3 },
-        { name: 'Marketing', level: 1, priority: 100 },
+        { name: 'Marketing', level: 1, priority: 6 },
         { name: 'Podio', level: 1, priority: 100 },
         { name: 'Product Management', level: 1, priority: 100 },
         { name: 'SCRUM', level: 1, priority: 2 },
-        { name: 'Strategy', level: 1, priority: 100 }
+        { name: 'Strategy', level: 1, priority: 5 }
       ]
     };
 
@@ -135,6 +135,8 @@ app.controller('SkillsController', function($scope){
 
 
   function calculateColumns(listLength, columnsArray) {
+
+    debugger;
 
     //Determines whether to use a 1, 2 or 3 column layout based on listLength
     if (listLength <= 5) {
@@ -159,7 +161,7 @@ app.controller('SkillsController', function($scope){
   calculateColumns($scope.skills.design.length, $scope.columns.design);
   calculateColumns($scope.skills.management.length, $scope.columns.management);
 
-});
+}]);
 
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
@@ -191,23 +193,26 @@ $(document).ready(function(){
   };
 
   //Sets up an event to trigger 3 sec before the video ends and starts to fade in profile pic
-  $( 'html.no-touch .header-video' ).on('timeupdate', function(){
-    if( this.currentTime > ( this.duration - 3 ) ) {
-      // $( 'html.no-touch .header-video' ).get(0).fadeOut(3000);
-      $('.header-profile-pic').fadeIn(3000);
-      //$('.logo-container').addClass('profile-pic-shown');
-      $(this).addClass('hidden');
-    }
-  });
-  $('html.no-touch .header-video').get(0).onended = function() {
-    showScroller();
-  };
-  $('html.no-touch .header-video').on('mouseover',function(){
-    showScroller();
-  });
-  $('html.no-touch .header-video').on('mouseout',function(){
-    hideScroller();
-  });
+  if (!Modernizr.touch) {
+    $( 'html.no-touch .header-video' ).on('timeupdate', function(){
+      if( this.currentTime > ( this.duration - 3 ) ) {
+        // $( 'html.no-touch .header-video' ).get(0).fadeOut(3000);
+        $('.header-profile-pic').fadeIn(3000);
+        //$('.logo-container').addClass('profile-pic-shown');
+        $(this).addClass('hidden');
+      }
+    });
+    $('html.no-touch .header-video').get(0).onended = function() {
+      showScroller();
+    };
+    $('html.no-touch .header-video').on('mouseover',function(){
+      showScroller();
+    });
+    $('html.no-touch .header-video').on('mouseout',function(){
+      hideScroller();
+    });
+  }
+
 
   // Show triangular scroll-button
   var showScroller = function() {
@@ -258,50 +263,53 @@ $(document).ready(function(){
   });
 
   //Activates and deactivates the navigation
-  $('section.grey').waypoint(function(direction){
-    if (direction === 'down') {
-      $('#card').removeClass('flipped');
-      setTimeout(function(){
-        $('.nav-timeline').addClass('active-home').addClass('dot-home');
-      }, 1000);
-    } else if (direction === 'up') {
-      $('#card').addClass('flipped');
-    }
-  });
+  if (!Modernizr.touch) {
+    $('section.grey').waypoint(function(direction){
+      if (direction === 'down') {
+        $('#card').removeClass('flipped');
+        setTimeout(function(){
+          $('.nav-timeline').addClass('active-home').addClass('dot-home');
+        }, 1000);
+      } else if (direction === 'up') {
+        $('#card').addClass('flipped');
+      }
+    });
 
-  $('#skills').waypoint(function(direction){
-    if (direction === 'down') {
-      clear_nav();
-      $('.nav-timeline').addClass('active-experience').addClass('dot-experience');
-    } else if (direction === 'up') {
+    $('#skills').waypoint(function(direction){
+      if (direction === 'down') {
+        clear_nav();
+        $('.nav-timeline').addClass('active-experience').addClass('dot-experience');
+      } else if (direction === 'up') {
 
-      clear_nav();
-      $('.nav-timeline').removeClass('active-experience');
-      $('.nav-timeline').addClass('dot-home');
-    }
-  });
+        clear_nav();
+        $('.nav-timeline').removeClass('active-experience');
+        $('.nav-timeline').addClass('dot-home');
+      }
+    });
 
-  $('#projects').waypoint(function(direction){
-    if (direction === 'down') {
-      clear_nav();
-      $('.nav-timeline').addClass('active-projects').addClass('dot-projects');
-    } else if (direction === 'up') {
-      clear_nav();
-      $('.nav-timeline').removeClass('active-projects');
-      $('.nav-timeline').addClass('dot-experience');
-    }
-  });
+    $('#projects').waypoint(function(direction){
+      if (direction === 'down') {
+        clear_nav();
+        $('.nav-timeline').addClass('active-projects').addClass('dot-projects');
+      } else if (direction === 'up') {
+        clear_nav();
+        $('.nav-timeline').removeClass('active-projects');
+        $('.nav-timeline').addClass('dot-experience');
+      }
+    });
 
-  $('#get-in-touch').waypoint(function(direction){
-    if (direction === 'down') {
-      clear_nav();
-      $('.nav-timeline').addClass('active-get-in-touch').addClass('dot-get-in-touch');
-    } else if (direction === 'up') {
-      clear_nav();
-      $('.nav-timeline').removeClass('active-get-in-touch');
-      $('.nav-timeline').addClass('dot-projects');
-    }
-  },{ offset: 'bottom-in-view'});
+    $('#get-in-touch').waypoint(function(direction){
+      if (direction === 'down') {
+        clear_nav();
+        $('.nav-timeline').addClass('active-get-in-touch').addClass('dot-get-in-touch');
+      } else if (direction === 'up') {
+        clear_nav();
+        $('.nav-timeline').removeClass('active-get-in-touch');
+        $('.nav-timeline').addClass('dot-projects');
+      }
+    },{ offset: 'bottom-in-view'});
+
+  }
 
 
 
@@ -348,7 +356,7 @@ $(document).ready(function(){
   $('section.skills [href="#action_hide_skill_details"]').click(function(){
     $('.all-skills').hide();
     $('.select-skills').fadeIn(500);
-  });  
+  });
 
 }); //document ready
 
@@ -356,7 +364,7 @@ $(document).ready(function(){
 //Public properties goes here
 return {
   expand_square: function(id) { expand_square(id); },
-  minimize_square: function(id) { minimize_square(); },
+  minimize_square: function() { minimize_square(); },
   relocate_squares: function($el) { relocate_squares($el); }
 };
 })();
