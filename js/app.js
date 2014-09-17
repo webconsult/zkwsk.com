@@ -136,8 +136,6 @@ app.controller('SkillsController', ['$scope', function($scope){
 
   function calculateColumns(listLength, columnsArray) {
 
-    debugger;
-
     //Determines whether to use a 1, 2 or 3 column layout based on listLength
     if (listLength <= 5) {
       $scope.columnCount = 1;
@@ -179,21 +177,23 @@ $(document).ready(function(){
     $('.logo-subtitle').fadeIn(200);
   }, 1500);
 
-  //Play video after 3s
-  setTimeout(function(){
-    playVideo();
-  },3000);
-
-  //Makes the logo overlay opaque, starts video playback and fades the video in
-  var playVideo = function () {
-    $('html.no-touch .logo-container').addClass('opaque');
-    var video = $('html.no-touch .header-video');
-    video.get(0).play();
-    video.removeClass('hidden');
-  };
-
-  //Sets up an event to trigger 3 sec before the video ends and starts to fade in profile pic
   if (!Modernizr.touch) {
+
+    //Play video after 3s
+    setTimeout(function(){
+      playVideo();
+    },3000);
+
+    //Makes the logo overlay opaque, starts video playback and fades the video in
+    var playVideo = function () {
+      $('html.no-touch .logo-container').addClass('opaque');
+      var video = $('html.no-touch .header-video');
+      video.get(0).play();
+      video.removeClass('hidden');
+    };
+
+    //Sets up an event to trigger 3 sec before the video ends and starts to fade in profile pic
+
     $( 'html.no-touch .header-video' ).on('timeupdate', function(){
       if( this.currentTime > ( this.duration - 3 ) ) {
         // $( 'html.no-touch .header-video' ).get(0).fadeOut(3000);
@@ -263,53 +263,53 @@ $(document).ready(function(){
   });
 
   //Activates and deactivates the navigation
-  if (!Modernizr.touch) {
-    $('section.grey').waypoint(function(direction){
-      if (direction === 'down') {
-        $('#card').removeClass('flipped');
-        setTimeout(function(){
-          $('.nav-timeline').addClass('active-home').addClass('dot-home');
-        }, 1000);
-      } else if (direction === 'up') {
-        $('#card').addClass('flipped');
-      }
-    });
+  $('section.grey').waypoint(function(direction){
+    if (direction === 'down') {
+      $('#card').removeClass('flipped');
+      setTimeout(function(){
+        clear_nav();
+        $('.nav-timeline').addClass('active-home').addClass('dot-home');
+      }, 1000);
+    } else if (direction === 'up') {
+      $('#card').addClass('flipped');
+    }
+  });
 
-    $('#skills').waypoint(function(direction){
-      if (direction === 'down') {
-        clear_nav();
-        $('.nav-timeline').addClass('active-experience').addClass('dot-experience');
-      } else if (direction === 'up') {
+  $('#skills').waypoint(function(direction){
+    if (direction === 'down') {
+      clear_nav();
+      $('.nav-timeline').addClass('active-experience').addClass('dot-experience');
+    } else if (direction === 'up') {
 
-        clear_nav();
-        $('.nav-timeline').removeClass('active-experience');
-        $('.nav-timeline').addClass('dot-home');
-      }
-    });
+      clear_nav();
+      $('.nav-timeline').removeClass('active-experience');
+      $('.nav-timeline').addClass('dot-home');
+    }
+  });
 
-    $('#projects').waypoint(function(direction){
-      if (direction === 'down') {
-        clear_nav();
-        $('.nav-timeline').addClass('active-projects').addClass('dot-projects');
-      } else if (direction === 'up') {
-        clear_nav();
-        $('.nav-timeline').removeClass('active-projects');
-        $('.nav-timeline').addClass('dot-experience');
-      }
-    });
 
-    $('#get-in-touch').waypoint(function(direction){
-      if (direction === 'down') {
-        clear_nav();
-        $('.nav-timeline').addClass('active-get-in-touch').addClass('dot-get-in-touch');
-      } else if (direction === 'up') {
-        clear_nav();
-        $('.nav-timeline').removeClass('active-get-in-touch');
-        $('.nav-timeline').addClass('dot-projects');
-      }
-    },{ offset: 'bottom-in-view'});
+  $('#projects').waypoint(function(direction){
+    if (direction === 'down') {
+      clear_nav();
+      $('.nav-timeline').addClass('active-projects').addClass('dot-projects');
+    } else if (direction === 'up') {
+      clear_nav();
+      $('.nav-timeline').removeClass('active-projects');
+      $('.nav-timeline').addClass('dot-experience');
+    }
+  });
 
-  }
+  $('#get-in-touch').waypoint(function(direction){
+    if (direction === 'down') {
+      clear_nav();
+      $('.nav-timeline').addClass('active-get-in-touch').addClass('dot-get-in-touch');
+    } else if (direction === 'up') {
+      clear_nav();
+      $('.nav-timeline').removeClass('active-get-in-touch');
+      $('.nav-timeline').addClass('dot-projects');
+    }
+  },{ offset: 'bottom-in-view'});
+
 
 
 
