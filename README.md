@@ -1,4 +1,4 @@
-# ZKWSK.COM source code
+# ZKWSK.CO source code
 
 A simple personal portfolio/resume site. Feel free to look around. 
 
